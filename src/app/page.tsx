@@ -116,20 +116,33 @@ export default function Home() {
 
       <section className="section process-section">
         <div className="container">
-          <div className="section-heading">
+          <div className="process-header">
             <p className="eyebrow">Comment ça marche ?</p>
             <h2>Sept étapes, sans jargon inutile.</h2>
-            <p>De la première prise de contact jusqu'au suivi, vous savez où vous en êtes.</p>
+            <p className="lead">De la première prise de contact jusqu&apos;au suivi, vous savez où vous en êtes.</p>
           </div>
-          <ol className="process-grid">
-            {processSteps.map((step, index) => (
-              <li key={step} className={index === 3 ? "process-active" : ""}>
-                <span className="process-node"><span className="process-node-core">{index + 1}</span><i /></span>
-                <strong>{step}</strong>
-                {index < processSteps.length - 1 && <span className="process-connector" aria-hidden="true" />}
-              </li>
+          <div className="process-accordion">
+            {[
+              { label: processSteps[0], detail: "Un message WhatsApp ou un appel suffit. Vous décrivez votre besoin en quelques mots, sans dossier à préparer à l'avance." },
+              { label: processSteps[1], detail: "Un conseiller évalue rapidement si votre profil et votre besoin permettent d'aller plus loin dans la démarche." },
+              { label: processSteps[2], detail: "Vous rassemblez les pièces adaptées à votre situation. Votre conseiller vous indique précisément ce dont il a besoin." },
+              { label: processSteps[3], detail: "Votre dossier est étudié en tenant compte de votre activité réelle, de votre contexte et de votre besoin déclaré." },
+              { label: processSteps[4], detail: "Vous recevez une réponse claire et motivée. En cas de refus, une explication vous est donnée sans jargon." },
+              { label: processSteps[5], detail: "Si votre dossier est validé, la solution est mise en place concrètement selon les modalités définies ensemble." },
+              { label: processSteps[6], detail: "Un conseiller reste disponible après la mise en place pour répondre à vos questions et suivre votre projet." },
+            ].map(({ label, detail }, i) => (
+              <details key={label} className="process-item" {...(i === 0 ? { open: true } : {})}>
+                <summary className="process-summary">
+                  <span className="process-step-num">0{i + 1}</span>
+                  <span className="process-step-label">{label}</span>
+                  <span className="process-step-toggle" aria-hidden="true" />
+                </summary>
+                <div className="process-detail-wrap">
+                  <p>{detail}</p>
+                </div>
+              </details>
             ))}
-          </ol>
+          </div>
         </div>
       </section>
 

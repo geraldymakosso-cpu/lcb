@@ -1,15 +1,17 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Fraunces, DM_Sans } from "next/font/google";
 import type { ReactNode } from "react";
 import "./globals.css";
 import "./brand-enhancements.css";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { MobileActions } from "@/components/layout/MobileActions";
+import { NavCurtain } from "@/components/layout/NavCurtain";
 import { company } from "@/content/company";
 import { getSiteUrl } from "@/lib/site";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
+const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces", display: "swap", weight: ["400", "500", "600", "700", "800", "900"], style: ["normal", "italic"] });
+const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans", display: "swap" });
 const siteUrl = getSiteUrl();
 
 export const viewport: Viewport = {
@@ -55,8 +57,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   };
 
   return (
-    <html lang="fr" className={inter.variable} data-scroll-behavior="smooth">
+    <html lang="fr" className={`${fraunces.variable} ${dmSans.variable}`} data-scroll-behavior="smooth">
       <body>
+        <NavCurtain />
         <SiteHeader />
         <main>{children}</main>
         <SiteFooter />
