@@ -77,7 +77,7 @@ export async function POST(request: NextRequest) {
 
   if (!apiKey || !to || !from) {
     return NextResponse.json(
-      { message: "Le formulaire est prêt mais l'envoi email n'est pas encore configuré. Contactez LCB sur WhatsApp au +242 06 191 59 40." },
+      { message: "Le formulaire est prêt mais l'envoi email n'est pas encore configuré. Contactez La Congolaise Business sur WhatsApp au +242 06 191 59 40." },
       { status: 503 },
     );
   }
@@ -102,13 +102,13 @@ export async function POST(request: NextRequest) {
     body: JSON.stringify({
       from,
       to: [to],
-      subject: `Nouvelle demande LCB — ${data.name}`,
-      html: `<div style="font-family:Arial,sans-serif;max-width:640px;margin:auto"><h1 style="color:#1C6C3A">Nouvelle demande LCB</h1>${rows.map(([label, value]) => `<p><strong>${escapeHtml(label)} :</strong><br>${escapeHtml(value)}</p>`).join("")}<hr><p style="font-size:12px;color:#666">Demande transmise depuis le site LCB.</p></div>`,
+      subject: `Nouvelle demande La Congolaise Business — ${data.name}`,
+      html: `<div style="font-family:Arial,sans-serif;max-width:640px;margin:auto"><h1 style="color:#1C6C3A">Nouvelle demande La Congolaise Business</h1>${rows.map(([label, value]) => `<p><strong>${escapeHtml(label)} :</strong><br>${escapeHtml(value)}</p>`).join("")}<hr><p style="font-size:12px;color:#666">Demande transmise depuis le site La Congolaise Business.</p></div>`,
     }),
   });
 
   if (!response.ok) {
-    console.error("LCB contact email provider error", response.status, await response.text());
+    console.error("La Congolaise Business contact email provider error", response.status, await response.text());
     return NextResponse.json({ message: "L'envoi n'a pas abouti. Merci de nous contacter directement sur WhatsApp." }, { status: 502 });
   }
 
