@@ -6,7 +6,7 @@ export function HeroVisual() {
       <div className="visual-orbit visual-orbit-one" aria-hidden="true" />
       <div className="visual-orbit visual-orbit-two" aria-hidden="true" />
       <div className="visual-main-card">
-        <Image className="hero-photo" src="/images/portrait-commercante-marche.png" alt="Commerçante souriante dans son marché" fill sizes="(max-width: 820px) 80vw, 430px" priority />
+        <Image className="hero-photo" src="/images/commercante-marche-etal.png" alt="Commerçante souriante devant son étal de marché" fill sizes="(max-width: 820px) 80vw, 430px" priority />
       </div>
     </div>
   );
