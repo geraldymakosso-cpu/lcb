@@ -8,7 +8,7 @@ export function HeroVisual() {
       <div className="visual-orbit visual-orbit-one" aria-hidden="true" />
       <div className="visual-orbit visual-orbit-two" aria-hidden="true" />
       <div className="visual-main-card">
-        <Image className="hero-photo" src="/images/ChatGPT Image 27 août 2026, 19_13_03 (3).png" alt="Commerçante dans son étal au marché" fill sizes="(max-width: 820px) 80vw, 430px" priority />
+        <Image className="hero-photo" src="/images/ChatGPT Image 27 août 2026, 19_37_17 (2).png" alt="Commerçante dans son étal au marché" fill sizes="(max-width: 820px) 80vw, 430px" priority />
         <div className="hero-photo-shade" aria-hidden="true" />
         <div className="visual-brand"><BrandMark compact inverse /></div>
         <div className="visual-stripe" aria-hidden="true"><span /><span /><span /></div>

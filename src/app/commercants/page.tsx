@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function MerchantsPage() {
   return (
     <>
-      <PageHero eyebrow="Commerçants des marchés" title="Faites avancer votre activité." description="Votre commerce a ses propres rythmes et contraintes. LCB étudie votre besoin avec une approche proche du terrain." secondaryHref="/contact?profil=commercant" imageSrc="/images/ChatGPT Image 27 août 2026, 19_13_02 (1).png" imageAlt="Commerçante souriante dans un marché" />
+      <PageHero eyebrow="Commerçants des marchés" title="Faites avancer votre activité." description="Votre commerce a ses propres rythmes et contraintes. LCB étudie votre besoin avec une approche proche du terrain." secondaryHref="/contact?profil=commercant" imageSrc="/images/ChatGPT Image 27 août 2026, 19_37_17 (2).png" imageAlt="Commerçante souriante dans un marché" />
       <section className="section">
         <div className="container two-column-content">
           <div><p className="eyebrow">Besoins fréquents</p><h2>Un besoin concret mérite une réponse claire.</h2><p>Nous ne partons pas d'un produit standard. Nous commençons par comprendre ce que vous cherchez à faire dans votre activité.</p></div>
