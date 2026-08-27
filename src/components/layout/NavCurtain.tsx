@@ -19,7 +19,7 @@ export function NavCurtain() {
           el.removeAttribute("data-covering");
           el.removeAttribute("data-entering");
           isNavigating.current = false;
-        }, 950);
+        }, 820);
       });
     });
   };
@@ -66,7 +66,7 @@ export function NavCurtain() {
       el.setAttribute("data-covering", "");
       el.setAttribute("data-exiting", "");
 
-      setTimeout(() => router.push(href), 530);
+      setTimeout(() => router.push(href), 80);
     };
 
     document.addEventListener("click", handleClick);

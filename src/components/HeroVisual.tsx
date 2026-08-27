@@ -6,7 +6,7 @@ export function HeroVisual() {
       <div className="visual-main-card">
         <Image
           className="hero-photo"
-          src="/images/commercante-marche-etal.png"
+          src="/images/commercante-marche-portrait-colore.png"
           alt=""
           fill
           sizes="(max-width: 820px) 100vw, 50vw"
