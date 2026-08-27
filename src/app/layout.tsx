@@ -20,19 +20,19 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "LCB — Accompagnement et financement des commerçants à Pointe-Noire",
-    template: "%s | LCB",
+    default: "La Congolaise Business | Gestion et accompagnement à Pointe-Noire",
+    template: "%s | La Congolaise Business",
   },
   description:
     "La Congolaise Business accompagne les commerçants, entrepreneurs et PME à Pointe-Noire avec des solutions adaptées à leurs besoins.",
-  applicationName: "LCB — La Congolaise Business",
+  applicationName: "La Congolaise Business",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "fr_CG",
     url: "/",
-    siteName: "LCB — La Congolaise Business",
-    title: "LCB — La Congolaise Business",
+    siteName: "La Congolaise Business",
+    title: "La Congolaise Business",
     description: company.institutional,
   },
 };
@@ -54,7 +54,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   };
 
   return (
-    <html lang="fr" className={inter.variable}>
+    <html lang="fr" className={inter.variable} data-scroll-behavior="smooth">
       <body>
         <SiteHeader />
         <main>{children}</main>

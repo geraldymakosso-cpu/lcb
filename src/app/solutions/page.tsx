@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function SolutionsPage() {
   return (
     <>
-      <PageHero eyebrow="Solutions LCB" title="Partir du besoin, construire la bonne suite." description="LCB accompagne différents profils avec une même méthode : écouter, qualifier, étudier et suivre." />
+      <PageHero eyebrow="Solutions LCB" title="Partir du besoin, construire la bonne suite." description="LCB accompagne différents profils avec une même méthode : écouter, qualifier, étudier et suivre." imageSrc="/images/portrait-salarie-bureau.png" imageAlt="Professionnel préparant son activité au bureau" />
       <section className="section">
         <div className="container service-grid service-grid-large">
           {services.map((service) => (

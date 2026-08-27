@@ -30,7 +30,7 @@ export function ContactForm() {
       form.reset();
       setState({
         type: "success",
-        message: "Votre demande a bien été transmise. Un conseiller LCB pourra vous recontacter.",
+        message: "Votre demande a bien été transmise. Un conseiller de La Congolaise Business pourra vous recontacter.",
       });
     } catch (error) {
       setState({
@@ -96,7 +96,7 @@ export function ContactForm() {
 
       <label className="consent-field">
         <input name="consent" type="checkbox" value="yes" required />
-        <span>J'accepte que LCB utilise les informations saisies pour me recontacter au sujet de ma demande. *</span>
+              <span>J'accepte que La Congolaise Business utilise les informations saisies pour me recontacter au sujet de ma demande. *</span>
       </label>
 
       <p className="form-privacy">Ne transmettez ici aucune pièce d'identité, donnée bancaire ou document privé.</p>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { HeroVisual } from "@/components/HeroVisual";
 import { Icon } from "@/components/ui/Icons";
 import { company, processSteps, profiles } from "@/content/company";
@@ -14,10 +15,10 @@ export default function Home() {
           <div className="hero-copy">
             <p className="eyebrow">{company.descriptor}</p>
             <h1>Un commerçant,<br /><span>une solution de financement.</span></h1>
-            <p className="lead">LCB vous aide à clarifier votre besoin et vous accompagne vers une solution adaptée à votre activité ou votre projet.</p>
+            <p className="lead">La Congolaise Business vous aide à clarifier votre besoin et vous accompagne vers une solution adaptée à votre activité ou votre projet.</p>
             <div className="hero-actions">
               <a className="button button-primary" href={getWhatsAppHref()} target="_blank" rel="noreferrer">
-                <Icon name="message" size={20} /> Contacter LCB sur WhatsApp
+                <Icon name="message" size={20} /> Contacter La Congolaise Business sur WhatsApp
               </a>
               <Link className="button button-secondary" href="/solutions">
                 Découvrir nos solutions <Icon name="arrow" size={18} />
@@ -52,12 +53,29 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section image-mosaic-section">
+        <div className="container image-mosaic-heading"><div><p className="eyebrow">Des réalités, des parcours</p><h2>Une équipe proche des personnes qui font avancer le Congo.</h2></div><p>Du marché à l’atelier, du premier échange au suivi, chaque image raconte un contexte d’accompagnement.</p></div>
+        <div className="container image-mosaic">
+          <figure className="mosaic-feature"><Image src="/images/accompagnement-boutique.png" alt="Accompagnement d’un commerçant dans sa boutique" fill sizes="(max-width: 820px) 100vw, 50vw" /><figcaption><span>Commerçants</span><strong>Faire grandir une activité ancrée dans le quotidien.</strong></figcaption></figure>
+          <figure className="mosaic-tile mosaic-tile-a"><Image src="/images/signature-accompagnement.png" alt="Signature d’un accord d’accompagnement" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Écouter avant d’orienter</figcaption></figure>
+          <figure className="mosaic-tile mosaic-tile-b"><Image src="/images/entrepreneur-au-bureau.png" alt="Entrepreneur travaillant sur son activité" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Construire avec méthode</figcaption></figure>
+          <figure className="mosaic-tile mosaic-tile-c"><Image src="/images/equipe-mains-unies.png" alt="Équipe réunie autour d’un projet" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Avancer ensemble</figcaption></figure>
+          <figure className="mosaic-tile mosaic-tile-d"><Image src="/images/conseillere-assistance.png" alt="Conseillère répondant à un client" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Clarifier le besoin</figcaption></figure>
+        </div>
+        <div className="container image-reel" aria-label="Moments d’accompagnement"><div className="image-reel-track">
+          <figure><Image src="/images/gestion-financiere-calculatrice.png" alt="Documents de gestion financière" fill sizes="220px" /><figcaption>Partager une vision</figcaption></figure>
+          <figure><Image src="/images/conseil-strategie-ordinateur.png" alt="Préparation d’un conseil stratégique" fill sizes="220px" /><figcaption>Décider avec clarté</figcaption></figure>
+          <figure><Image src="/images/formation-financiere.png" alt="Formation autour de documents financiers" fill sizes="220px" /><figcaption>Passer à l’action</figcaption></figure>
+          <span className="sr-only">Les images suivantes défilent automatiquement.</span>
+        </div></div>
+      </section>
+
       <section className="section section-soft" id="solutions">
         <div className="container">
           <div className="section-heading centered-heading">
             <p className="eyebrow">Nos solutions</p>
             <h2>Un besoin clair. Un parcours simple.</h2>
-            <p>Pas de promesse automatique : chaque demande est étudiée et accompagnée par un conseiller LCB.</p>
+            <p>Pas de promesse automatique : chaque demande est étudiée et accompagnée par un conseiller de La Congolaise Business.</p>
           </div>
           <div className="service-grid">
             {services.map((service) => (
@@ -75,18 +93,19 @@ export default function Home() {
       <section className="merchant-focus">
         <div className="container merchant-grid">
           <div className="merchant-art" aria-hidden="true">
+            <div className="merchant-photo"><Image src="/images/commercante-marche-legumes.png" alt="Commerçante présentant ses produits au marché" fill sizes="(max-width: 820px) 90vw, 420px" /></div>
             <div className="merchant-rings" />
             <div className="merchant-stall">
               <span className="stall-top" />
               <span className="stall-table" />
               <i className="crate crate-a" /><i className="crate crate-b" /><i className="crate crate-c" />
             </div>
-            <span className="merchant-badge">LCB · au plus près du commerce</span>
+            <span className="merchant-badge">La Congolaise Business · au plus près du commerce</span>
           </div>
           <div className="merchant-copy">
             <p className="eyebrow light">Commerçants des marchés</p>
             <h2>Votre commerce bouge vite. Votre accompagnement doit suivre.</h2>
-            <p>Besoin de renouveler votre stock ou de renforcer votre activité ? LCB étudie votre situation et vous aide à avancer avec un parcours lisible.</p>
+            <p>Besoin de renouveler votre stock ou de renforcer votre activité ? La Congolaise Business étudie votre situation et vous aide à avancer avec un parcours lisible.</p>
             <ul className="check-list">
               {merchantNeeds.map((need) => <li key={need}><Icon name="check" size={18} /> {need}</li>)}
             </ul>
@@ -104,7 +123,11 @@ export default function Home() {
           </div>
           <ol className="process-grid">
             {processSteps.map((step, index) => (
-              <li key={step}><span>{index + 1}</span><strong>{step}</strong></li>
+              <li key={step} className={index === 3 ? "process-active" : ""}>
+                <span className="process-node"><span className="process-node-core">{index + 1}</span><i /></span>
+                <strong>{step}</strong>
+                {index < processSteps.length - 1 && <span className="process-connector" aria-hidden="true" />}
+              </li>
             ))}
           </ol>
         </div>
@@ -113,9 +136,9 @@ export default function Home() {
       <section className="section section-soft">
         <div className="container why-grid">
           <div className="why-intro">
-            <p className="eyebrow">Pourquoi LCB ?</p>
+            <p className="eyebrow">Pourquoi La Congolaise Business ?</p>
             <h2>Une approche proche, simple et concrète.</h2>
-            <p>LCB n'essaie pas de vous faire rentrer dans un discours complexe. Nous partons de votre besoin réel.</p>
+            <p>La Congolaise Business n'essaie pas de vous faire rentrer dans un discours complexe. Nous partons de votre besoin réel.</p>
           </div>
           <div className="why-list">
             {[
@@ -138,7 +161,7 @@ export default function Home() {
           </div>
           <div>
             <p>{company.institutional}</p>
-            <Link className="text-link" href="/a-propos">Découvrir LCB <Icon name="arrow" size={18} /></Link>
+            <Link className="text-link" href="/a-propos">Découvrir La Congolaise Business <Icon name="arrow" size={18} /></Link>
           </div>
         </div>
       </section>
@@ -146,7 +169,7 @@ export default function Home() {
       <section className="section contact-band">
         <div className="container contact-band-grid">
           <div>
-            <p className="eyebrow">Agence LCB</p>
+            <p className="eyebrow">Agence La Congolaise Business</p>
             <h2>Parlons de votre besoin.</h2>
             <p>WhatsApp reste le moyen le plus rapide. Vous pouvez aussi appeler ou venir à l'agence.</p>
             <div className="hero-actions">
@@ -174,7 +197,7 @@ export default function Home() {
       <section className="final-cta">
         <div className="container final-cta-inner">
           <div><p className="eyebrow light">Un premier échange suffit</p><h2>Expliquez-nous votre besoin. Nous vous indiquons la suite.</h2></div>
-          <a className="button button-light" href={getWhatsAppHref()} target="_blank" rel="noreferrer"><Icon name="message" size={19} /> Contacter LCB sur WhatsApp</a>
+            <a className="button button-light" href={getWhatsAppHref()} target="_blank" rel="noreferrer"><Icon name="message" size={19} /> Contacter La Congolaise Business sur WhatsApp</a>
         </div>
       </section>
     </>
