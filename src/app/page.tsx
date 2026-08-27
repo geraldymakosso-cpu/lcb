@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { HeroVisual } from "@/components/HeroVisual";
 import { Icon } from "@/components/ui/Icons";
 import { company, processSteps, profiles } from "@/content/company";
@@ -75,6 +76,7 @@ export default function Home() {
       <section className="merchant-focus">
         <div className="container merchant-grid">
           <div className="merchant-art" aria-hidden="true">
+            <div className="merchant-photo"><Image src="/images/ChatGPT Image 27 août 2026, 19_13_04 (5).png" alt="Équipe en activité dans une boutique textile" fill sizes="(max-width: 820px) 90vw, 420px" /></div>
             <div className="merchant-rings" />
             <div className="merchant-stall">
               <span className="stall-top" />
@@ -104,7 +106,11 @@ export default function Home() {
           </div>
           <ol className="process-grid">
             {processSteps.map((step, index) => (
-              <li key={step}><span>{index + 1}</span><strong>{step}</strong></li>
+              <li key={step} className={index === 3 ? "process-active" : ""}>
+                <span className="process-node"><span className="process-node-core">{index + 1}</span><i /></span>
+                <strong>{step}</strong>
+                {index < processSteps.length - 1 && <span className="process-connector" aria-hidden="true" />}
+              </li>
             ))}
           </ol>
         </div>
