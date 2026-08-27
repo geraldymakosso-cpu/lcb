@@ -3,7 +3,7 @@ export const services = [
     id: "commercants",
     title: "Solutions commerçants",
     description:
-      "LCB étudie les besoins liés au stock, à la trésorerie et au développement de votre activité commerciale.",
+      "La Congolaise Business étudie les besoins liés au stock, à la trésorerie et au développement de votre activité commerciale.",
     href: "/commercants",
     icon: "shop",
   },
@@ -19,7 +19,7 @@ export const services = [
     id: "salaries",
     title: "Solutions salariés",
     description:
-      "Présentez votre projet ou besoin à un conseiller LCB pour une étude au cas par cas.",
+      "Présentez votre projet ou besoin à un conseiller de La Congolaise Business pour une étude au cas par cas.",
     href: "/contact?profil=salarie",
     icon: "user",
   },
