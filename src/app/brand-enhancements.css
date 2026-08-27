@@ -49,8 +49,8 @@
   z-index: 0;
   inset: 0;
   background:
-    linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.90)),
-    url("/images/texture-motif-africain-tricolore.png") center / 620px auto repeat;
+    linear-gradient(rgba(255,255,255,.965), rgba(255,255,255,.965)),
+    url("/images/texture-motif-africain-tricolore.png") center / 700px auto repeat;
   pointer-events: none;
 }
 
@@ -70,8 +70,8 @@
   z-index: 0;
   inset: 0;
   background:
-    linear-gradient(rgba(255,255,255,.94), rgba(255,255,255,.94)),
-    url("/images/texture-motif-africain-tricolore.png") center / 760px auto repeat;
+    linear-gradient(rgba(255,255,255,.975), rgba(255,255,255,.975)),
+    url("/images/texture-motif-africain-tricolore.png") center / 860px auto repeat;
   pointer-events: none;
 }
 
@@ -118,7 +118,7 @@
   text-align: center;
   border: 1px solid rgba(28,108,58,.14);
   border-radius: 18px;
-  background: rgba(255,255,255,.92);
+  background: rgba(255,255,255,.96);
   box-shadow: 0 14px 34px rgba(15,66,35,.07);
   transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
 }
@@ -154,6 +154,25 @@
   width: 52px;
   height: 52px;
   object-fit: contain;
+}
+
+.service-grid-large .service-card p {
+  min-height: 0;
+}
+
+.three-principles article {
+  padding: 26px 28px;
+}
+
+.three-principles h2 {
+  margin-top: 20px;
+}
+
+@media (min-width: 821px) {
+  .hero-copy h1 {
+    font-size: clamp(3.15rem, 5.6vw, 5.2rem);
+    letter-spacing: -.055em;
+  }
 }
 
 @media (max-width: 1020px) {
@@ -196,5 +215,9 @@
   .merchant-badge {
     font-size: .66rem;
     padding: 8px 11px;
+  }
+
+  .three-principles article {
+    padding: 24px;
   }
 }
