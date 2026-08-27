@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function MerchantsPage() {
   return (
     <>
-      <PageHero eyebrow="Commerçants des marchés" title="Faites avancer votre activité." description="Votre commerce a ses propres rythmes et contraintes. La Congolaise Business étudie votre besoin avec une approche proche du terrain." secondaryHref="/contact?profil=commercant" imageSrc="/images/portrait-salarie-bureau.png" imageAlt="Professionnel préparant son activité au bureau" />
+      <PageHero eyebrow="Commerçants des marchés" title="Faites avancer votre activité." description="Votre commerce a ses propres rythmes et contraintes. La Congolaise Business étudie votre besoin avec une approche proche du terrain." secondaryHref="/contact?profil=commercant" imageSrc="/images/commercante-marche-tomates.png" imageAlt="Commerçante devant son étal de tomates au marché" />
       <section className="section">
         <div className="container two-column-content">
           <div><p className="eyebrow">Besoins fréquents</p><h2>Un besoin concret mérite une réponse claire.</h2><p>Nous ne partons pas d'un produit standard. Nous commençons par comprendre ce que vous cherchez à faire dans votre activité.</p></div>
