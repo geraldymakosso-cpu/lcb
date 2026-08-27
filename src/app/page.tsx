@@ -56,16 +56,16 @@ export default function Home() {
       <section className="section image-mosaic-section">
         <div className="container image-mosaic-heading"><div><p className="eyebrow">Des réalités, des parcours</p><h2>Une équipe proche des personnes qui font avancer le Congo.</h2></div><p>Du marché à l’atelier, du premier échange au suivi, chaque image raconte un contexte d’accompagnement.</p></div>
         <div className="container image-mosaic">
-          <figure className="mosaic-feature"><Image src="/images/accompagnement-boutique.png" alt="Accompagnement d’un commerçant dans sa boutique" fill sizes="(max-width: 820px) 100vw, 50vw" /><figcaption><span>Commerçants</span><strong>Faire grandir une activité ancrée dans le quotidien.</strong></figcaption></figure>
-          <figure className="mosaic-tile mosaic-tile-a"><Image src="/images/signature-accompagnement.png" alt="Signature d’un accord d’accompagnement" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Écouter avant d’orienter</figcaption></figure>
-          <figure className="mosaic-tile mosaic-tile-b"><Image src="/images/entrepreneur-au-bureau.png" alt="Entrepreneur travaillant sur son activité" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Construire avec méthode</figcaption></figure>
-          <figure className="mosaic-tile mosaic-tile-c"><Image src="/images/equipe-mains-unies.png" alt="Équipe réunie autour d’un projet" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Avancer ensemble</figcaption></figure>
-          <figure className="mosaic-tile mosaic-tile-d"><Image src="/images/conseillere-assistance.png" alt="Conseillère répondant à un client" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Clarifier le besoin</figcaption></figure>
+          <figure className="mosaic-feature"><Image src="/images/poignee-main-boutique.png" alt="Poignée de main entre deux professionnels dans une boutique" fill sizes="(max-width: 820px) 100vw, 50vw" /><figcaption><span>Commerçants</span><strong>Faire grandir une activité ancrée dans le quotidien.</strong></figcaption></figure>
+          <figure className="mosaic-tile mosaic-tile-a"><Image src="/images/entretien-conseillere-client.png" alt="Conseillère en entretien avec un client" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Écouter avant d’orienter</figcaption></figure>
+          <figure className="mosaic-tile mosaic-tile-b"><Image src="/images/entrepreneur-ordinateur-bureau.png" alt="Entrepreneur travaillant sur son activité" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Construire avec méthode</figcaption></figure>
+          <figure className="mosaic-tile mosaic-tile-c"><Image src="/images/mains-unies-equipe.png" alt="Mains réunies autour d’un projet collectif" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Avancer ensemble</figcaption></figure>
+          <figure className="mosaic-tile mosaic-tile-d"><Image src="/images/conseillere-client-bureau.png" alt="Conseillère échangeant avec un client au bureau" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Clarifier le besoin</figcaption></figure>
         </div>
         <div className="container image-reel" aria-label="Moments d’accompagnement"><div className="image-reel-track">
-          <figure><Image src="/images/gestion-financiere-calculatrice.png" alt="Documents de gestion financière" fill sizes="220px" /><figcaption>Partager une vision</figcaption></figure>
-          <figure><Image src="/images/conseil-strategie-ordinateur.png" alt="Préparation d’un conseil stratégique" fill sizes="220px" /><figcaption>Décider avec clarté</figcaption></figure>
-          <figure><Image src="/images/formation-financiere.png" alt="Formation autour de documents financiers" fill sizes="220px" /><figcaption>Passer à l’action</figcaption></figure>
+          <figure><Image src="/images/professionnelle-ordinateur-bureau.png" alt="Professionnelle travaillant sur son ordinateur" fill sizes="220px" /><figcaption>Partager une vision</figcaption></figure>
+          <figure><Image src="/images/calculatrice-graphiques-financiers.png" alt="Calculatrice posée sur des graphiques financiers" fill sizes="220px" /><figcaption>Décider avec clarté</figcaption></figure>
+          <figure><Image src="/images/tableau-bord-financier-ordinateur.png" alt="Tableau de bord financier affiché sur un ordinateur" fill sizes="220px" /><figcaption>Passer à l’action</figcaption></figure>
           <span className="sr-only">Les images suivantes défilent automatiquement.</span>
         </div></div>
       </section>
