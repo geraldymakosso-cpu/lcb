@@ -16,7 +16,7 @@
   bottom: -10%;
   width: min(48vw, 680px);
   aspect-ratio: 1.55;
-  background: url("/images/fond-ruban-tricolore.png") center / contain no-repeat;
+  background: url("/images/bandeau-ruban-tricolore.png") center / contain no-repeat;
   opacity: .15;
   pointer-events: none;
 }
@@ -38,7 +38,7 @@
   position: absolute;
   z-index: 0;
   inset: 0;
-  background: url("/images/texture-africaine-creme.png") center / 720px auto repeat;
+  background: url("/images/texture-creme-motif-subtil.png") center / 720px auto repeat;
   opacity: .075;
   pointer-events: none;
 }
@@ -50,7 +50,7 @@
   inset: 0;
   background:
     linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.90)),
-    url("/images/texture-motif-tricolore.png") center / 620px auto repeat;
+    url("/images/texture-motif-africain-tricolore.png") center / 620px auto repeat;
   pointer-events: none;
 }
 
@@ -59,7 +59,7 @@
   position: absolute;
   z-index: 0;
   inset: 0;
-  background: url("/images/fond-vert-lignes.png") center / cover no-repeat;
+  background: url("/images/fond-vert-courbes-tricolores.png") center / cover no-repeat;
   opacity: .24;
   pointer-events: none;
 }
@@ -71,7 +71,7 @@
   inset: 0;
   background:
     linear-gradient(rgba(255,255,255,.94), rgba(255,255,255,.94)),
-    url("/images/texture-motif-tricolore.png") center / 760px auto repeat;
+    url("/images/texture-motif-africain-tricolore.png") center / 760px auto repeat;
   pointer-events: none;
 }
 
@@ -102,16 +102,9 @@
   overflow: hidden;
 }
 
-.value-icon {
-  width: 58px;
-  height: 58px;
-  margin-bottom: 18px;
-  object-fit: contain;
-}
-
 .visual-levers-grid {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 14px;
 }
 
