@@ -80,7 +80,9 @@ export default function Home() {
           <div className="service-grid">
             {services.map((service) => (
               <article className="service-card" key={service.id} id={service.id}>
-                <span className="service-icon"><Icon name={service.icon} size={25} /></span>
+                <span className="service-icon">
+                  <Image src={service.iconSrc} alt="" width={48} height={48} />
+                </span>
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
                 <Link href={service.href}>Découvrir <Icon name="arrow" size={17} /></Link>

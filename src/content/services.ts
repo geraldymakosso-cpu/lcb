@@ -6,6 +6,7 @@ export const services = [
       "La Congolaise Business étudie les besoins liés au stock, à la trésorerie et au développement de votre activité commerciale.",
     href: "/commercants",
     icon: "shop",
+    iconSrc: "/icons/icone-main-piece.png",
   },
   {
     id: "entrepreneurs",
@@ -14,6 +15,7 @@ export const services = [
       "Un accompagnement pour clarifier votre besoin, structurer votre projet et étudier une solution adaptée.",
     href: "/entrepreneurs",
     icon: "briefcase",
+    iconSrc: "/icons/icone-graphique-croissance.png",
   },
   {
     id: "salaries",
@@ -22,6 +24,7 @@ export const services = [
       "Présentez votre projet ou besoin à un conseiller de La Congolaise Business pour une étude au cas par cas.",
     href: "/contact?profil=salarie",
     icon: "user",
+    iconSrc: "/icons/icone-echange-personnes.png",
   },
   {
     id: "accompagnement",
@@ -30,6 +33,7 @@ export const services = [
       "Un conseiller à vos côtés pour mieux formuler votre besoin et préparer les prochaines étapes.",
     href: "/contact?besoin=accompagnement",
     icon: "compass",
+    iconSrc: "/icons/icone-poignee-main.png",
   },
 ] as const;
 
