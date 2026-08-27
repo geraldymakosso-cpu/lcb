@@ -8,6 +8,7 @@ export function HeroVisual() {
       <div className="visual-orbit visual-orbit-two" aria-hidden="true" />
       <div className="visual-main-card">
         <div className="visual-brand"><BrandMark compact inverse /></div>
+        <div className="visual-stripe" aria-hidden="true"><span /><span /><span /></div>
         <div className="market-illustration" aria-hidden="true">
           <div className="market-awning"><i /><i /><i /><i /><i /></div>
           <div className="market-body">
@@ -21,6 +22,10 @@ export function HeroVisual() {
           <span>Proximité terrain</span>
           <strong>Une solution pensée à partir de votre besoin.</strong>
         </div>
+      </div>
+      <div className="visual-note visual-note-middle">
+        <span className="note-dot" aria-hidden="true" />
+        <div><small>Parcours LCB</small><strong>Étude du besoin</strong></div>
       </div>
       <div className="visual-note visual-note-top">
         <span className="icon-bubble"><Icon name="shop" size={18} /></span>
