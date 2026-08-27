@@ -13,7 +13,7 @@ export function SiteFooter() {
           <BrandMark inverse />
           <p>{company.descriptor}</p>
           <a className="footer-cta" href={getWhatsAppHref()} target="_blank" rel="noreferrer">
-            <Icon name="message" size={18} /> Contacter LCB
+            <Icon name="message" size={18} /> Contacter La Congolaise Business
           </a>
         </div>
 
@@ -42,7 +42,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="container footer-bottom">
-        <span>© {new Date().getFullYear()} LCB — La Congolaise Business</span>
+            <span>© {new Date().getFullYear()} La Congolaise Business</span>
         <span className="footer-legal">
           <Link href="/mentions-legales">Mentions légales</Link>
           <Link href="/confidentialite">Confidentialité</Link>

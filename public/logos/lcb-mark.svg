@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">LCB</title>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="13">
+  <path d="M18 82 L18 22 L31 35" stroke="#F5A623"/>
+  <path d="M32 48 L72 12" stroke="#0FA6A0"/>
+  <path d="M20 82 L61 50" stroke="#C0392B"/>
+  <path d="M72 14 L72 81 L61 70" stroke="#4CAF3D"/>
+</g>
+</svg>

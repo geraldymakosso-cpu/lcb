@@ -8,7 +8,7 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <Link href="/" className="brand-link" aria-label="Accueil LCB">
+        <Link href="/" className="brand-link" aria-label="Accueil, La Congolaise Business">
           <BrandMark />
         </Link>
 

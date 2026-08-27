@@ -14,10 +14,10 @@ export default function Home() {
           <div className="hero-copy">
             <p className="eyebrow">{company.descriptor}</p>
             <h1>Un commerçant,<br /><span>une solution de financement.</span></h1>
-            <p className="lead">LCB vous aide à clarifier votre besoin et vous accompagne vers une solution adaptée à votre activité ou votre projet.</p>
+            <p className="lead">La Congolaise Business vous aide à clarifier votre besoin et vous accompagne vers une solution adaptée à votre activité ou votre projet.</p>
             <div className="hero-actions">
               <a className="button button-primary" href={getWhatsAppHref()} target="_blank" rel="noreferrer">
-                <Icon name="message" size={20} /> Contacter LCB sur WhatsApp
+                <Icon name="message" size={20} /> Contacter La Congolaise Business sur WhatsApp
               </a>
               <Link className="button button-secondary" href="/solutions">
                 Découvrir nos solutions <Icon name="arrow" size={18} />
@@ -57,7 +57,7 @@ export default function Home() {
           <div className="section-heading centered-heading">
             <p className="eyebrow">Nos solutions</p>
             <h2>Un besoin clair. Un parcours simple.</h2>
-            <p>Pas de promesse automatique : chaque demande est étudiée et accompagnée par un conseiller LCB.</p>
+            <p>Pas de promesse automatique : chaque demande est étudiée et accompagnée par un conseiller de La Congolaise Business.</p>
           </div>
           <div className="service-grid">
             {services.map((service) => (
@@ -81,12 +81,12 @@ export default function Home() {
               <span className="stall-table" />
               <i className="crate crate-a" /><i className="crate crate-b" /><i className="crate crate-c" />
             </div>
-            <span className="merchant-badge">LCB · au plus près du commerce</span>
+            <span className="merchant-badge">La Congolaise Business · au plus près du commerce</span>
           </div>
           <div className="merchant-copy">
             <p className="eyebrow light">Commerçants des marchés</p>
             <h2>Votre commerce bouge vite. Votre accompagnement doit suivre.</h2>
-            <p>Besoin de renouveler votre stock ou de renforcer votre activité ? LCB étudie votre situation et vous aide à avancer avec un parcours lisible.</p>
+            <p>Besoin de renouveler votre stock ou de renforcer votre activité ? La Congolaise Business étudie votre situation et vous aide à avancer avec un parcours lisible.</p>
             <ul className="check-list">
               {merchantNeeds.map((need) => <li key={need}><Icon name="check" size={18} /> {need}</li>)}
             </ul>
@@ -113,9 +113,9 @@ export default function Home() {
       <section className="section section-soft">
         <div className="container why-grid">
           <div className="why-intro">
-            <p className="eyebrow">Pourquoi LCB ?</p>
+            <p className="eyebrow">Pourquoi La Congolaise Business ?</p>
             <h2>Une approche proche, simple et concrète.</h2>
-            <p>LCB n'essaie pas de vous faire rentrer dans un discours complexe. Nous partons de votre besoin réel.</p>
+            <p>La Congolaise Business n'essaie pas de vous faire rentrer dans un discours complexe. Nous partons de votre besoin réel.</p>
           </div>
           <div className="why-list">
             {[
@@ -138,7 +138,7 @@ export default function Home() {
           </div>
           <div>
             <p>{company.institutional}</p>
-            <Link className="text-link" href="/a-propos">Découvrir LCB <Icon name="arrow" size={18} /></Link>
+            <Link className="text-link" href="/a-propos">Découvrir La Congolaise Business <Icon name="arrow" size={18} /></Link>
           </div>
         </div>
       </section>
@@ -146,7 +146,7 @@ export default function Home() {
       <section className="section contact-band">
         <div className="container contact-band-grid">
           <div>
-            <p className="eyebrow">Agence LCB</p>
+            <p className="eyebrow">Agence La Congolaise Business</p>
             <h2>Parlons de votre besoin.</h2>
             <p>WhatsApp reste le moyen le plus rapide. Vous pouvez aussi appeler ou venir à l'agence.</p>
             <div className="hero-actions">
@@ -174,7 +174,7 @@ export default function Home() {
       <section className="final-cta">
         <div className="container final-cta-inner">
           <div><p className="eyebrow light">Un premier échange suffit</p><h2>Expliquez-nous votre besoin. Nous vous indiquons la suite.</h2></div>
-          <a className="button button-light" href={getWhatsAppHref()} target="_blank" rel="noreferrer"><Icon name="message" size={19} /> Contacter LCB sur WhatsApp</a>
+            <a className="button button-light" href={getWhatsAppHref()} target="_blank" rel="noreferrer"><Icon name="message" size={19} /> Contacter La Congolaise Business sur WhatsApp</a>
         </div>
       </section>
     </>

@@ -3,8 +3,7 @@ import { Icon } from "@/components/ui/Icons";
 
 export function HeroVisual() {
   return (
-    <div className="hero-visual" aria-label="LCB, un accompagnement proche du terrain">
-      <div className="visual-grid" aria-hidden="true" />
+    <div className="hero-visual" aria-label="La Congolaise Business, un accompagnement proche du terrain">
       <div className="visual-orbit visual-orbit-one" aria-hidden="true" />
       <div className="visual-orbit visual-orbit-two" aria-hidden="true" />
       <div className="visual-main-card">
