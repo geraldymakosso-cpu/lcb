@@ -1,11 +1,10 @@
 export const company = {
   name: "La Congolaise Business",
-  shortName: "LCB",
   descriptor: "Cabinet de gestion et d'accompagnement",
   legalForm: "Entreprise Individuelle",
   tagline: "Un commerçant, une solution de financement.",
   institutional:
-    "LCB accompagne les commerçants, entrepreneurs et porteurs de projets avec des solutions de gestion, d'accompagnement et de financement adaptées à leurs besoins.",
+    "La Congolaise Business accompagne les commerçants, entrepreneurs et porteurs de projets avec des solutions de gestion, d'accompagnement et de financement adaptées à leurs besoins.",
   address:
     "Pointe-Noire, Fond Tié-Tié, Ndaka Soussou, en face de la clinique Rocher d'Âge",
   hours: "Du lundi au vendredi : 08h30 à 17h30",
@@ -33,7 +32,7 @@ export const profiles = [
   {
     title: "Salariés",
     description:
-      "Pour présenter un besoin ou un projet personnel et échanger avec un conseiller LCB.",
+      "Pour présenter un besoin ou un projet personnel et échanger avec un conseiller de La Congolaise Business.",
     href: "/solutions#salaries",
     eyebrow: "Étude au cas par cas",
   },
