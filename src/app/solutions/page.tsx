@@ -12,18 +12,17 @@ export const metadata: Metadata = {
 };
 
 const visualLevers = [
-  ["Financement", "/icons/icone-service-financement.png"],
-  ["Conseil", "/icons/icone-service-conseil.png"],
-  ["Gestion", "/icons/icone-service-gestion.png"],
-  ["Formation", "/icons/icone-service-formation.png"],
-  ["Suivi", "/icons/icone-service-suivi.png"],
-  ["Accompagnement", "/icons/icone-service-accompagnement.png"],
+  ["Financement", "/icons/icone-main-piece.png"],
+  ["Conseil", "/icons/icone-echange-personnes.png"],
+  ["Gestion", "/icons/icone-graphique-croissance.png"],
+  ["Formation", "/icons/icone-chapeau-diplome.png"],
+  ["Accompagnement", "/icons/icone-poignee-main.png"],
 ] as const;
 
 export default function SolutionsPage() {
   return (
     <>
-      <PageHero eyebrow="Solutions La Congolaise Business" title="Partir du besoin, construire la bonne suite." description="La Congolaise Business accompagne différents profils avec une même méthode : écouter, qualifier, étudier et suivre." imageSrc="/images/portrait-salarie-bureau.png" imageAlt="Professionnel préparant son activité au bureau" />
+      <PageHero eyebrow="Solutions La Congolaise Business" title="Partir du besoin, construire la bonne suite." description="La Congolaise Business accompagne différents profils avec une même méthode : écouter, qualifier, étudier et suivre." imageSrc="/images/equipe-pme-autour-ordinateur.png" imageAlt="Petite équipe réunie autour d'un ordinateur" />
       <section className="section solution-levers-section">
         <div className="container">
           <div className="section-heading centered-heading"><p className="eyebrow">Nos leviers</p><h2>Un accompagnement qui combine plusieurs expertises.</h2><p>Les besoins diffèrent selon les activités. Nous mobilisons les leviers utiles au bon moment, sans imposer un parcours standard.</p></div>
