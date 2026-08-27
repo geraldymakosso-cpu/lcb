@@ -63,15 +63,13 @@ export default function Home() {
           <figure className="mosaic-tile mosaic-tile-d"><Image src="/images/ChatGPT Image 27 août 2026, 19_37_19 (5).png" alt="Conseiller travaillant sur un projet professionnel" fill sizes="(max-width: 820px) 50vw, 25vw" /><figcaption>Clarifier le besoin</figcaption></figure>
         </div>
         <div className="container image-reel" aria-label="Moments d’accompagnement"><div className="image-reel-track">
-          <figure><Image src="/images/ChatGPT Image 27 août 2026, 19_13_02 (1).png" alt="Commerçante dans son étal" fill sizes="220px" /><figcaption>Le commerce au quotidien</figcaption></figure>
-          <figure><Image src="/images/ChatGPT Image 27 août 2026, 19_13_02 (2).png" alt="Échange entre une conseillère et une cliente" fill sizes="220px" /><figcaption>Un échange à l’écoute</figcaption></figure>
-          <figure><Image src="/images/ChatGPT Image 27 août 2026, 19_13_03 (3).png" alt="Commerçante dans son environnement de travail" fill sizes="220px" /><figcaption>Comprendre le terrain</figcaption></figure>
-          <figure><Image src="/images/ChatGPT Image 27 août 2026, 19_17_30 (1).png" alt="Professionnelle dans son bureau" fill sizes="220px" /><figcaption>Préparer la suite</figcaption></figure>
-          <figure><Image src="/images/ChatGPT Image 27 août 2026, 19_17_32 (2).png" alt="Entrepreneur dans son atelier" fill sizes="220px" /><figcaption>Développer une activité</figcaption></figure>
-          <figure><Image src="/images/ChatGPT Image 27 août 2026, 19_17_34 (5).png" alt="Conseillère en entretien" fill sizes="220px" /><figcaption>Faire le point</figcaption></figure>
           <figure><Image src="/images/ChatGPT Image 27 août 2026, 19_17_32 (3).png" alt="Équipe réunie autour d’un projet" fill sizes="220px" /><figcaption>Partager une vision</figcaption></figure>
           <figure><Image src="/images/ChatGPT Image 27 août 2026, 19_17_33 (4).png" alt="Conseillère présentant un dossier" fill sizes="220px" /><figcaption>Décider avec clarté</figcaption></figure>
           <figure><Image src="/images/ChatGPT Image 27 août 2026, 19_17_36 (6).png" alt="Conseillère accompagnant une équipe" fill sizes="220px" /><figcaption>Passer à l’action</figcaption></figure>
+          <span className="sr-only">Les images suivantes défilent automatiquement.</span>
+          <figure aria-hidden="true"><Image src="/images/ChatGPT Image 27 août 2026, 19_17_32 (3).png" alt="" fill sizes="220px" /><figcaption>Partager une vision</figcaption></figure>
+          <figure aria-hidden="true"><Image src="/images/ChatGPT Image 27 août 2026, 19_17_33 (4).png" alt="" fill sizes="220px" /><figcaption>Décider avec clarté</figcaption></figure>
+          <figure aria-hidden="true"><Image src="/images/ChatGPT Image 27 août 2026, 19_17_36 (6).png" alt="" fill sizes="220px" /><figcaption>Passer à l’action</figcaption></figure>
         </div></div>
       </section>
 
