@@ -57,7 +57,7 @@ export async function POST(request: NextRequest) {
   };
 
   const allowedProfiles = new Set(["commercant", "entrepreneur", "salarie", "autre"]);
-  const allowedNeeds = new Set(["financement", "accompagnement", "information", "autre"]);
+  const allowedNeeds = new Set(["financement", "epargne", "accompagnement", "information", "autre"]);
   const phoneDigits = data.phone.replace(/\D/g, "");
 
   if (
@@ -65,7 +65,9 @@ export async function POST(request: NextRequest) {
     phoneDigits.length < 7 ||
     !data.city ||
     !allowedProfiles.has(data.profile) ||
+    !data.activity ||
     !allowedNeeds.has(data.need) ||
+    !data.amount ||
     data.consent !== "yes"
   ) {
     return NextResponse.json({ message: "Merci de vérifier les champs obligatoires du formulaire." }, { status: 400 });
@@ -87,9 +89,9 @@ export async function POST(request: NextRequest) {
     ["Téléphone", data.phone],
     ["Ville", data.city],
     ["Profil", data.profile],
-    ["Activité", data.activity || "Non précisée"],
+    ["Activité", data.activity],
     ["Besoin", data.need],
-    ["Montant souhaité", data.amount || "Non précisé"],
+    ["Montant souhaité", data.amount],
     ["Message", data.message || "Aucun"],
   ];
 

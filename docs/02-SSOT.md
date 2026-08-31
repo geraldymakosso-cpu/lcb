@@ -1,304 +1,47 @@
-# LCB — MASTER SSOT
+# LCB - Master SSOT
 
-## 1. Objet
-
-Ce document constitue la source de vérité principale du projet LCB.
-
-Toute information contradictoire présente dans :
-
-- anciens flyers ;
-- supports WhatsApp ;
-- prototypes ;
-- code ;
-- anciennes communications ;
-
-doit être ignorée au profit de ce document.
-
----
-
-# 2. Identité officielle
-
-| Élément | Valeur | Statut |
-|---|---|---|
-| Nom | La Congolaise Business | VALIDATED |
-| Sigle | LCB | VALIDATED |
-| Forme juridique | Entreprise Individuelle | VALIDATED |
-| Positionnement | Cabinet de gestion et d'accompagnement | VALIDATED |
-| Site | Site vitrine institutionnel et commercial | VALIDATED |
-
----
-
-# 3. Positionnement
-
-LCB ne doit pas être présentée automatiquement comme :
-
-- banque ;
-- établissement bancaire ;
-- microfinance ;
-- établissement de dépôt.
-
-Ces termes nécessitent une validation juridique spécifique.
-
-Positionnement canonique :
-
-> **Cabinet de gestion et d'accompagnement**
-
----
-
-# 4. Cibles
-
-Ordre canonique :
-
-1. **Commerçants des marchés**
-2. **Entrepreneurs / PME**
-3. **Salariés**
-
-Statut : `VALIDATED`
-
----
-
-# 5. Adresse
-
-**Pointe-Noire, Fond Tié-Tié, Ndaka Soussou, en face de la clinique Rocher d'Âge**
-
-Statut : `VALIDATED`
-
----
-
-# 6. Horaires
-
-**Du lundi au vendredi : 08h30 à 17h30**
-
-Statut : `VALIDATED`
-
----
-
-# 7. Téléphones
-
-### Ligne 1
-
-**+242 06 191 59 40**
-
-### Ligne 2
-
-**+242 05 083 62 40**
-
-Statut : `VALIDATED`
-
----
-
-# 8. WhatsApp
-
-Numéro de travail :
-
-**+242 06 191 59 40**
-
-Statut : `WORKING_DECISION`
-
-À modifier si un numéro WhatsApp spécifique est communiqué ultérieurement.
-
----
-
-# 9. Email
-
-L'adresse Gmail personnelle présente sur certains anciens supports ne doit pas être utilisée comme adresse principale du site.
-
-Créer une adresse professionnelle sur le domaine officiel.
-
-Exemple :
-
-`contact@<domaine-lcb>`
-
-Statut : `TBD`
-
----
-
-# 10. Réseaux sociaux
-
-Les réseaux sociaux doivent être créés / structurés.
-
-Statut : `TBD`
-
-Réseaux potentiels :
-
-- Facebook ;
-- TikTok ;
-- LinkedIn ;
-- WhatsApp Business.
-
-Ne pas afficher de lien tant que le compte correspondant n'existe pas.
-
----
-
-# 11. Identité graphique
-
-## Couleurs officielles
-
-- Vert
-- Jaune
-- Rouge
-
-Statut : `VALIDATED`
-
-Les valeurs HEX / RGB exactes restent à déterminer.
-
-Statut des codes couleur : `TBD`
-
----
-
-# 12. Logo
-
-Le logo définitif reste à déterminer.
-
-Statut : `TBD`
-
-Aucun ancien logo ne doit être considéré comme définitivement canonique.
-
-Le développement doit permettre de remplacer facilement le logo.
-
----
-
-# 13. Actions principales
-
-Le site doit permettre :
-
-1. contacter LCB sur WhatsApp ;
-2. appeler un conseiller ;
-3. se rendre à l'agence ;
-4. remplir un formulaire.
-
-Statut : `VALIDATED`
-
----
-
-# 14. Hiérarchie des CTA
-
-### CTA primaire
-
-**Contacter LCB sur WhatsApp**
-
-### CTA secondaires
-
-- Appeler un conseiller
-- Remplir le formulaire
-- Se rendre à l'agence
-
----
-
-# 15. Vocabulaire canonique
-
-## Utiliser
-
-- financement ;
-- solution de financement ;
-- accompagnement ;
-- solution ;
-- conseiller LCB ;
-- demande ;
-- dossier ;
-- étude du besoin ;
-- mise à disposition du financement ;
-- commerçant ;
-- entrepreneur ;
-- PME ;
-- salarié.
-
-## Éviter sans validation juridique
-
-- banque ;
-- LCB Bank ;
-- microfinance ;
-- compte bancaire ;
-- compte courant ;
-- dépôt bancaire ;
-- produit bancaire ;
-- livret bancaire ;
-- établissement financier ;
-- épargne sécurisée ;
-- crédit garanti.
-
----
-
-# 16. Offres V1
-
-## Offre 1
-
-**Solutions commerçants**
-
-Statut : `VALIDATED`
-
-## Offre 2
-
-**Solutions entrepreneurs / PME**
-
-Statut : `VALIDATED`
-
-## Offre 3
-
-**Solutions salariés**
-
-Statut : `VALIDATED`
-
-## Offre 4
-
-**Conseil et accompagnement**
-
-Statut : `VALIDATED`
-
----
-
-# 17. Montants
-
-Les anciens supports mentionnent pour certaines offres commerçants :
-
-**27 000 à 500 000 FCFA**
-
-Statut : `WORKING_DECISION`
-
-Cette information peut être utilisée dans les maquettes et contenus internes.
-
-Publication définitive uniquement après confirmation métier.
-
----
-
-# 18. Processus de demande
-
-Processus canonique de travail :
-
-1. prise de contact ;
-2. préqualification ;
-3. constitution du dossier ;
-4. étude ;
-5. validation ;
-6. mise à disposition ;
-7. accompagnement / suivi.
-
-Statut : `WORKING_DECISION`
-
----
-
-# 19. Déploiement
-
+## Identité validée
 | Élément | Valeur |
 |---|---|
-| Framework | Next.js |
-| Langage | TypeScript |
-| Styles | Tailwind CSS |
-| Repository | GitHub |
-| Hosting | Vercel |
-| Database V1 | Aucune |
-| Auth V1 | Aucune |
-| CMS V1 | Aucun |
+| Nom | La Congolaise Business |
+| Sigle | LCB |
+| Forme juridique | Entreprise Individuelle |
+| Positionnement | Cabinet de gestion et d'accompagnement |
+| Création | 2025 |
 
-Statut : `VALIDATED`
+## Messages canoniques
+- Origine : « LCB est née de la volonté de répondre aux difficultés d'accès au financement tout en accompagnant la structuration et le développement des petits commerces et activités économiques. »
+- Mission : « Faciliter l'accès à des solutions de financement et accompagner les clients dans la structuration de leurs besoins. »
+- Ambition : « Étendre progressivement l'accompagnement de LCB au-delà de Pointe-Noire et à travers le Congo. »
+- Signature : « Un commerçant, une solution de financement. »
+- Mention obligatoire : « Toute demande fait l'objet d'une étude. Le dépôt d'une demande ne garantit pas l'obtention d'un financement. »
 
----
+## Cibles et contact
+1. Commerçants
+2. Entrepreneurs / PME
+3. Salariés
 
-# 20. Règle de modification
+- Zone prioritaire : Pointe-Noire, Fond Tié-Tié, Ndaka Soussou.
+- Adresse : Pointe-Noire, Fond Tié-Tié, Ndaka Soussou, en face de la clinique Rocher d'Âge.
+- Horaires : Du lundi au vendredi : 08h30 à 17h30.
+- WhatsApp primaire : +242 06 191 59 40, `https://wa.me/242061915940`.
+- Appels : +242 05 083 62 40, `tel:+242050836240`.
+- CTA primaire : Contacter LCB sur WhatsApp. CTA secondaire : Appeler un conseiller.
 
-Toute modification d'une décision `VALIDATED` doit être :
+## Offre publique V1
+- Commerçants : stock, équipement, aménagement, trésorerie, opportunité commerciale, développement. Une activité de trois mois peut être demandée selon la solution ; le premier contact ne demande pas de formalisation administrative.
+- Entrepreneurs / PME : équipement, matériel, stock, fonds de roulement, exécution de commande ou de marché. Entreprises déjà en activité ; l'étude tient compte de la situation, de l'activité et des caractéristiques de l'entreprise.
+- Salariés : projet personnel, équipement ou activité complémentaire. L'étude peut tenir compte de l'ancienneté, du contrat et du revenu, sans seuil annoncé.
+- Épargne : « Préparez progressivement vos projets. » Les modalités sont communiquées par un conseiller ; aucun taux, montant, durée, fréquence ou mécanisme n'est publié.
+- Conseil et accompagnement : « Un conseiller à vos côtés pour mieux structurer votre besoin et préparer les prochaines étapes. »
 
-1. explicitement décidée ;
-2. reportée ici ;
-3. propagée ensuite aux documents secondaires ;
-4. seulement ensuite implémentée dans le code.
+LCB est un cabinet d'accompagnement et d'intermédiation. La mise à disposition du financement relève d'un partenaire financeur non nommé publiquement. Communiquer seulement : « Des solutions à partir de 27 000 FCFA, selon votre profil et l'étude de votre besoin. » Les demandes reçues pendant les horaires d'ouverture peuvent être prises en charge le jour même.
+
+## Navigation V1
+`NAVIGATION_MODEL=OFFER_AND_AUDIENCE`. Le menu Solutions contient Financement (`/solutions#financement`), Épargne (`/solutions#epargne`) et Conseil & accompagnement (`/solutions#accompagnement`). Le menu Pour qui ? contient Commerçants, Entrepreneurs & PME et Salariés. Épargne n'a pas de route autonome.
+
+## Formulaire et données
+Préqualification uniquement : nom et prénom, téléphone, ville, profil, activité, besoin, montant souhaité et consentement sont obligatoires ; message facultatif. Besoins : Financement, Épargne, Accompagnement, Information, Autre. Aucun document ou donnée sensible. Rétention métier : cinq ans.
+
+## Éléments externes non renseignés
+Ne pas inventer : domaine, email professionnel, RCCM, NIU, responsable de publication, coordonnées définitives d'hébergement et valeurs HEX. Le logo et les couleurs validés présents dans le dépôt sont conservés.

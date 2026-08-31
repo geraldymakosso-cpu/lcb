@@ -1,59 +1,10 @@
-import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { PageHero } from "@/components/PageHero";
 import { Icon } from "@/components/ui/Icons";
-import { services } from "@/content/services";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Solutions",
-  description: "Découvrez les solutions LCB pour commerçants, entrepreneurs / PME, salariés et les services d'accompagnement à Pointe-Noire.",
-  alternates: { canonical: "/solutions" },
-};
+export const metadata = pageMetadata("Solutions LCB à Pointe-Noire", "Découvrez les solutions de financement, Épargne et conseil & accompagnement de LCB à Pointe-Noire.", "/solutions");
 
 export default function SolutionsPage() {
-  return (
-    <>
-      <PageHero eyebrow="Solutions LCB" title="Partir du besoin, construire la bonne suite." description="LCB accompagne différents profils avec une même méthode : écouter, qualifier, étudier et suivre." imageSrc="/images/conseillere-dossier-bureau-plan-large.png" imageAlt="Conseillère présentant un projet à une équipe" />
-      <section className="section">
-        <div className="container service-grid service-grid-large">
-          {services.map((service) => (
-            <article className="service-card" key={service.id} id={service.id}>
-              <span className="service-icon">
-                <Image src={service.iconSrc} alt="" width={52} height={52} />
-              </span>
-              <h2>{service.title}</h2>
-              <p>{service.description}</p>
-              <Link href={service.href}>Voir cette solution <Icon name="arrow" size={18} /></Link>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="section section-soft">
-        <div className="container">
-          <div className="section-heading centered-heading">
-            <p className="eyebrow">Leviers d&apos;action</p>
-            <h2>Cinq axes pour avancer.</h2>
-          </div>
-          <div className="visual-levers-grid">
-            {[
-              { src: "/icons/icone-main-piece.png", label: "Financement" },
-              { src: "/icons/icone-graphique-croissance.png", label: "Croissance" },
-              { src: "/icons/icone-echange-personnes.png", label: "Accompagnement" },
-              { src: "/icons/icone-poignee-main.png", label: "Partenariat" },
-              { src: "/icons/icone-chapeau-diplome.png", label: "Formation" },
-            ].map(({ src, label }) => (
-              <div className="visual-lever" key={label}>
-                <Image src={src} alt="" width={70} height={70} />
-                <strong>{label}</strong>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="content-note"><div className="container"><strong>À savoir</strong><p>LCB n&apos;affiche volontairement aucun taux, condition automatique ni promesse d&apos;acceptation sur ce site. Toute demande fait l&apos;objet d&apos;une étude.</p></div></section>
-    </>
-  );
+  return <><PageHero eyebrow="Solutions LCB" title="Partir du besoin, construire la bonne suite." description="LCB accompagne votre besoin, facilite l'accès à une solution adaptée et vous aide à préparer les prochaines étapes." imageSrc="/images/conseillere-dossier-bureau-plan-large.png" imageAlt="Conseillère présentant un projet à une équipe" /><section className="section" id="financement"><div className="container two-column-content"><div><p className="eyebrow">Financement</p><h2>Une solution étudiée selon votre besoin.</h2><p>LCB accompagne votre demande et facilite l&apos;accès à une solution adaptée. Des solutions peuvent être étudiées à partir de 27 000 FCFA, selon votre profil et votre besoin.</p><Link className="button button-primary" href="/contact?besoin=financement">Faire une demande</Link></div><ul className="feature-list">{["Stock et équipement", "Aménagement et trésorerie", "Opportunités et développement d'activité", "Matériel, fonds de roulement, commandes et marchés", "Projets personnels et activité complémentaire"].map((item) => <li key={item}><Icon name="check" size={19} /><span>{item}</span></li>)}</ul></div></section><section className="section section-soft" id="epargne"><div className="container about-grid"><div><p className="eyebrow">Épargne</p><h2>Préparez progressivement vos projets.</h2></div><div><p>LCB vous accompagne dans une démarche d&apos;épargne adaptée à vos objectifs. Échangez avec un conseiller pour connaître les modalités correspondant à votre situation.</p><Link className="button button-primary" href="/contact?besoin=epargne">Se renseigner sur l&apos;Épargne <Icon name="arrow" size={18} /></Link></div></div></section><section className="section" id="accompagnement"><div className="container two-column-content"><div><p className="eyebrow">Conseil & accompagnement</p><h2>Un conseiller à vos côtés.</h2><p>Un conseiller à vos côtés pour mieux structurer votre besoin et préparer les prochaines étapes.</p><Link className="button button-primary" href="/contact?besoin=accompagnement">Parler à un conseiller</Link></div><ul className="feature-list">{["Écoute", "Orientation", "Étude du besoin", "Préparation du dossier", "Accompagnement"].map((item) => <li key={item}><Icon name="check" size={19} /><span>{item}</span></li>)}</ul></div></section><section className="content-note"><div className="container"><strong>À savoir</strong><p>Toute demande fait l&apos;objet d&apos;une étude. Le dépôt d&apos;une demande ne garantit pas l&apos;obtention d&apos;un financement.</p></div></section></>;
 }

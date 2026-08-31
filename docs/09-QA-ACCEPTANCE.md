@@ -1,123 +1,16 @@
-# QA & ACCEPTANCE — LCB
+# QA and Acceptance - LCB V1
 
-# 1. Validation technique
+## Gates techniques
+Exécuter `npm run typecheck`, `npm run lint` et `npm run build`. Le résultat réel est consigné dans le rapport de mise à jour.
 
-Doivent être verts :
+## Parcours obligatoires
+- La navigation desktop et mobile distingue Solutions (Financement, Épargne, Conseil & accompagnement) et Pour qui ? (Commerçants, Entrepreneurs & PME, Salariés).
+- Toutes les routes publiques, header, menu mobile, footer, sitemap, robots et pages légales répondent sans lien cassé.
+- WhatsApp utilise `https://wa.me/242061915940` avec le message général validé. L'appel utilise `tel:+242050836240`.
+- Le formulaire valide les huit champs obligatoires côté navigateur et serveur, accepte le message facultatif, rejette le spam honeypot et ne collecte aucune donnée sensible.
+- Les contenus Épargne ne publient aucun taux, durée, montant, fréquence, rendement, frais, retrait ou garantie.
+- Vérifier les largeurs 360, 390, 430, 768, 1024, 1366 et 1920 px, sans overflow, CTA inaccessible ni image déformée.
+- Contrôler title, description, canonical, Open Graph, sitemap, robots, données structurées et favicon existant.
 
-```text
-TYPECHECK=PASS
-LINT=PASS
-BUILD=PASS
-2. Responsive
-Tester :
-- 360px
-- 390px
-- 430px
-- 768px
-- 1024px
-- 1366px
-- 1920px
-Aucun :
-- overflow horizontal ;
-- texte coupé ;
-- bouton inaccessible ;
-- image déformée.
-3. Navigation
-Tous les liens doivent fonctionner.
-Tester :
-- header ;
-- menu mobile ;
-- CTA ;
-- footer ;
-- liens légaux.
-4. WhatsApp
-Vérifier :
-- numéro correct ;
-- ouverture application / web ;
-- message pré-rempli ;
-- aucune URL cassée.
-5. Téléphone
-Vérifier :
-+242 06 191 59 40
-+242 05 083 62 40
-6. Adresse
-Doit afficher exactement :
-Pointe-Noire, Fond Tié-Tié, Ndaka Soussou, en face de la clinique Rocher d'Âge.
-
-7. Horaires
-Doit afficher :
-Du lundi au vendredi, de 08h30 à 17h30.
-
-8. Formulaire
-Tester :
-- formulaire valide ;
-- champ manquant ;
-- mauvais téléphone ;
-- message trop long ;
-- spam ;
-- succès ;
-- erreur serveur ;
-- email reçu.
-9. Sécurité
-Vérifier :
-- aucun secret client ;
-- aucun .env commité ;
-- aucune API key visible ;
-- validation serveur ;
-- pas de donnée sensible collectée.
-10. SEO
-Vérifier :
-- title ;
-- description ;
-- canonical ;
-- Open Graph ;
-- sitemap ;
-- robots ;
-- favicon.
-11. Accessibilité
-Tester :
-- clavier ;
-- focus ;
-- contrastes ;
-- alt ;
-- labels ;
-- erreurs ;
-- titres H1/H2 cohérents.
-12. Performance
-Objectif Lighthouse :
-PERFORMANCE>=90
-ACCESSIBILITY>=90
-BEST_PRACTICES>=90
-SEO>=90
-Une dérogation doit être documentée.
-13. Console
-Production :
-CONSOLE_ERRORS=0
-14. Network
-Aucun :
-- 404 ;
-- 500 ;
-- asset cassé ;
-- requête inutile répétée.
-15. Contenu
-Vérifier qu'aucun ancien terme problématique n'est exposé :
-- LCB Bank ;
-- banque ;
-- compte courant ;
-- dépôt bancaire ;
-- crédit garanti.
-Sauf validation documentaire ultérieure.
-16. Definition of Done
-FUNCTIONAL=PASS
-RESPONSIVE=PASS
-CONTENT=PASS
-SEO=PASS
-ACCESSIBILITY=PASS
-SECURITY=PASS
-FORM=PASS
-WHATSAPP=PASS
-PHONE=PASS
-BUILD=PASS
-VERCEL=PASS
-Seulement après ces validations :
-LCB_V1=ACCEPTED
+## Contrôle éditorial
+Rechercher dans le rendu public les termes interdits définis par le SSOT. Toute occurrence doit être supprimée ou justifiée uniquement dans un contexte de conformité non public. Lighthouse cible : Performance, Accessibilité, Bonnes pratiques et SEO >= 90 ; une absence d'exécution doit être signalée, jamais déclarée réussie.

@@ -1,14 +1,10 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { Icon } from "@/components/ui/Icons";
 import { merchantNeeds } from "@/content/services";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Solutions pour commerçants à Pointe-Noire",
-  description: "LCB accompagne les commerçants des marchés de Pointe-Noire pour leurs besoins de stock, trésorerie et développement d'activité.",
-  alternates: { canonical: "/commercants" },
-};
+export const metadata = pageMetadata("Solutions commerçants à Pointe-Noire", "LCB accompagne les commerçants de Pointe-Noire pour les besoins de stock, équipement, trésorerie et développement d'activité.", "/commercants");
 
 export default function MerchantsPage() {
   return (
@@ -20,7 +16,7 @@ export default function MerchantsPage() {
           <ul className="feature-list">{merchantNeeds.map((need) => <li key={need}><Icon name="check" size={19} /><span>{need}</span></li>)}</ul>
         </div>
       </section>
-      <section className="section section-soft"><div className="container story-panel"><div className="story-number">01</div><div><p className="eyebrow">Proximité</p><h2>Le commerce de proximité n'est pas un marché secondaire pour LCB.</h2><p>Les commerçants sont la priorité n°1 du projet LCB. Le site, le discours et le parcours de contact sont conçus pour être simples à utiliser depuis un téléphone, même pendant une journée de travail chargée.</p><Link className="button button-primary" href="/contact?profil=commercant">Présenter mon besoin</Link></div></div></section>
+      <section className="section section-soft"><div className="container story-panel"><div className="story-number">01</div><div><p className="eyebrow">Proximité</p><h2>Le commerce de proximité est au cœur de LCB.</h2><p>Selon la solution étudiée, une activité exercée depuis au moins trois mois peut être demandée. Aucune formalisation administrative n&apos;est obligatoire pour prendre un premier contact ; les justificatifs sont ensuite déterminés selon votre situation.</p><Link className="button button-primary" href="/contact?profil=commercant">Présenter mon besoin</Link></div></div></section>
     </>
   );
 }

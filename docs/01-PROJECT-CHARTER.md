@@ -1,144 +1,17 @@
-# PROJECT CHARTER — LCB
+# Project Charter - LCB V1
 
-## 1. Identité
+LCB est une Entreprise Individuelle créée en 2025, positionnée comme cabinet de gestion et d'accompagnement. Cette V1 est exclusivement un site vitrine public, mobile-first, pour présenter les solutions et permettre un premier contact à Pointe-Noire.
 
-**Nom :** La Congolaise Business  
-**Sigle :** LCB  
-**Forme juridique :** Entreprise Individuelle  
-**Positionnement :** Cabinet de gestion et d'accompagnement  
-**Type de produit numérique :** Site vitrine institutionnel et commercial  
-**Version :** V1
+## Objectifs
+- Présenter clairement LCB, ses cinq familles de solutions et son approche de proximité.
+- Prioriser les commerçants, puis les entrepreneurs / PME et les salariés.
+- Permettre un contact immédiat par WhatsApp, appel et formulaire de préqualification.
+- Ne jamais présenter LCB comme prêteur direct ni promettre l'obtention d'un financement.
 
----
+## Périmètre
+Routes : `/`, `/solutions`, `/commercants`, `/entrepreneurs`, `/salaries`, `/a-propos`, `/faq`, `/contact`, `/mentions-legales`, `/confidentialite`. La navigation sépare les offres sous Solutions et les profils sous Pour qui ?.
 
-## 2. Vision
+Inclus : SEO, sitemap, pages légales, formulaire validé côté serveur, honeypot et limite de requêtes. Exclus : application V2, CRM, authentification, espace client, scoring, base métier, upload documentaire, paiements, remboursements et gestion de partenaires.
 
-Créer une présence numérique professionnelle permettant à LCB de présenter clairement ses activités et de devenir facilement accessible à ses publics prioritaires.
-
-Le site doit particulièrement refléter la proximité de LCB avec les commerçants et petites activités économiques.
-
----
-
-## 3. Objectifs principaux
-
-Le site doit permettre à un visiteur de :
-
-1. comprendre ce qu'est LCB ;
-2. découvrir les solutions proposées ;
-3. identifier rapidement si LCB peut répondre à son besoin ;
-4. contacter LCB sur WhatsApp ;
-5. appeler un conseiller ;
-6. connaître l'emplacement de l'agence ;
-7. soumettre une demande via un formulaire.
-
----
-
-## 4. Cibles
-
-### Priorité 1 — Commerçants des marchés
-
-Cœur de cible.
-
-Exemples de besoins :
-
-- renouvellement de stock ;
-- développement du commerce ;
-- besoin ponctuel de trésorerie ;
-- financement d'une opportunité commerciale.
-
-### Priorité 2 — Entrepreneurs / PME
-
-Besoins :
-
-- développement ;
-- équipement ;
-- exploitation ;
-- accompagnement ;
-- financement de projet.
-
-### Priorité 3 — Salariés
-
-Besoins personnels ou projets étudiés au cas par cas.
-
----
-
-## 5. Positionnement commercial
-
-### Positionnement général
-
-> LCB accompagne les commerçants, entrepreneurs et porteurs de projets avec des solutions de gestion, d'accompagnement et de financement adaptées à leurs besoins.
-
-### Signature commerciale de travail
-
-> Un commerçant, une solution de financement.
-
----
-
-## 6. Périmètre V1
-
-### Inclus
-
-- site responsive ;
-- accueil ;
-- présentation de LCB ;
-- présentation des solutions ;
-- page commerçants ;
-- page entrepreneurs ;
-- à propos ;
-- FAQ ;
-- contact ;
-- WhatsApp ;
-- téléphone ;
-- formulaire de préqualification ;
-- localisation agence ;
-- SEO de base ;
-- pages légales ;
-- analytics simple ;
-- déploiement Vercel.
-
-### Hors périmètre
-
-- espace client ;
-- authentification ;
-- gestion des prêts ;
-- scoring ;
-- gestion des remboursements ;
-- paiement en ligne ;
-- portefeuille électronique ;
-- application mobile ;
-- base de données métier ;
-- collecte de pièces d'identité ;
-- upload documentaire ;
-- back-office métier ;
-- CRM complet.
-
----
-
-## 7. Hébergement
-
-**Plateforme cible :** Vercel.
-
-Architecture privilégiée :
-
-- Next.js ;
-- React ;
-- TypeScript ;
-- Tailwind CSS ;
-- GitHub ;
-- Vercel.
-
----
-
-## 8. Principe de conception
-
-La V1 doit rester :
-
-- simple ;
-- rapide ;
-- professionnelle ;
-- mobile-first ;
-- facilement maintenable ;
-- peu coûteuse à exploiter ;
-- capable d'évoluer ultérieurement.
-
-Le projet ne doit pas être sur-architecturé.
+## Succès V1
+Une visite permet de comprendre l'offre, de joindre LCB à Pointe-Noire et de transmettre une préqualification sans données sensibles. La mise en production dépend des valeurs externes non présentes dans le corpus.
