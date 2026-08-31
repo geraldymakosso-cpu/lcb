@@ -1,12 +1,8 @@
-import type { Metadata } from "next";
 import { PageHero } from "@/components/PageHero";
 import { faqs } from "@/content/faq";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "FAQ",
-  description: "Questions fréquentes sur LCB, les demandes, les solutions étudiées, l'agence et les moyens de contact.",
-  alternates: { canonical: "/faq" },
-};
+export const metadata = pageMetadata("Questions fréquentes", "Les réponses sur les solutions, l'Épargne, les demandes et le contact avec LCB à Pointe-Noire.", "/faq");
 
 export default function FaqPage() {
   return (

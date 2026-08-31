@@ -1,98 +1,77 @@
-# PROJECT CHARTER — LCB
+# PROJECT CHARTER — LCB V1
 
 ## 1. Identité
 
 **Nom :** La Congolaise Business  
 **Sigle :** LCB  
 **Forme juridique :** Entreprise Individuelle  
+**Création :** 2025  
 **Positionnement :** Cabinet de gestion et d'accompagnement  
 **Type de produit numérique :** Site vitrine institutionnel et commercial  
 **Version :** V1
 
----
-
 ## 2. Vision
 
-Créer une présence numérique professionnelle permettant à LCB de présenter clairement ses activités et de devenir facilement accessible à ses publics prioritaires.
+Créer une présence numérique professionnelle permettant à LCB de présenter clairement ses activités, de devenir facilement accessible à ses publics prioritaires et de convertir les visiteurs en prospects qualifiés.
 
-Le site doit particulièrement refléter la proximité de LCB avec les commerçants et petites activités économiques.
-
----
+Le site doit refléter la proximité de LCB avec les commerçants et petites activités économiques, sans présenter LCB comme une banque, une microfinance ou un prêteur direct.
 
 ## 3. Objectifs principaux
 
 Le site doit permettre à un visiteur de :
 
 1. comprendre ce qu'est LCB ;
-2. découvrir les solutions proposées ;
-3. identifier rapidement si LCB peut répondre à son besoin ;
+2. découvrir les trois familles publiques de solutions : Financement, Épargne, Conseil & accompagnement ;
+3. identifier rapidement si LCB peut répondre à son besoin selon son profil ;
 4. contacter LCB sur WhatsApp ;
 5. appeler un conseiller ;
 6. connaître l'emplacement de l'agence ;
-7. soumettre une demande via un formulaire.
-
----
+7. soumettre une demande via un formulaire de préqualification.
 
 ## 4. Cibles
 
-### Priorité 1 — Commerçants des marchés
+Ordre canonique :
 
-Cœur de cible.
-
-Exemples de besoins :
-
-- renouvellement de stock ;
-- développement du commerce ;
-- besoin ponctuel de trésorerie ;
-- financement d'une opportunité commerciale.
-
-### Priorité 2 — Entrepreneurs / PME
-
-Besoins :
-
-- développement ;
-- équipement ;
-- exploitation ;
-- accompagnement ;
-- financement de projet.
-
-### Priorité 3 — Salariés
-
-Besoins personnels ou projets étudiés au cas par cas.
-
----
+1. **Commerçants** ;
+2. **Entrepreneurs / PME** ;
+3. **Salariés**.
 
 ## 5. Positionnement commercial
 
 ### Positionnement général
 
-> LCB accompagne les commerçants, entrepreneurs et porteurs de projets avec des solutions de gestion, d'accompagnement et de financement adaptées à leurs besoins.
+> LCB accompagne les commerçants, entrepreneurs, PME et salariés avec des solutions de gestion, d'accompagnement et de financement adaptées à leurs besoins.
 
-### Signature commerciale de travail
+### Signature
 
 > Un commerçant, une solution de financement.
 
----
+### Garde-fou obligatoire
+
+> Toute demande fait l'objet d'une étude. Le dépôt d'une demande ne garantit pas l'obtention d'un financement.
+
+LCB agit comme cabinet d'accompagnement et d'intermédiation. La mise à disposition du financement relève d'un partenaire financeur non nommé publiquement.
 
 ## 6. Périmètre V1
 
 ### Inclus
 
-- site responsive ;
+- site responsive et mobile-first ;
 - accueil ;
-- présentation de LCB ;
-- présentation des solutions ;
-- page commerçants ;
-- page entrepreneurs ;
-- à propos ;
+- Solutions ;
+- Commerçants ;
+- Entrepreneurs / PME ;
+- Salariés ;
+- À propos ;
 - FAQ ;
-- contact ;
+- Contact ;
 - WhatsApp ;
 - téléphone ;
 - formulaire de préqualification ;
 - localisation agence ;
-- SEO de base ;
+- SEO ;
 - pages légales ;
+- sitemap ;
 - analytics simple ;
 - déploiement Vercel.
 
@@ -100,21 +79,26 @@ Besoins personnels ou projets étudiés au cas par cas.
 
 - espace client ;
 - authentification ;
+- CRM complet ;
 - gestion des prêts ;
 - scoring ;
 - gestion des remboursements ;
 - paiement en ligne ;
-- portefeuille électronique ;
-- application mobile ;
 - base de données métier ;
 - collecte de pièces d'identité ;
 - upload documentaire ;
-- back-office métier ;
-- CRM complet.
+- gestion opérationnelle des partenaires.
 
----
+## 7. Navigation
 
-## 7. Hébergement
+`NAVIGATION_MODEL=OFFER_AND_AUDIENCE`
+
+- **Solutions** : Financement, Épargne, Conseil & accompagnement ;
+- **Pour qui ?** : Commerçants, Entrepreneurs & PME, Salariés.
+
+Épargne reste une section de `/solutions` et n'a pas de route autonome dans la V1.
+
+## 8. Hébergement et architecture
 
 **Plateforme cible :** Vercel.
 
@@ -125,20 +109,14 @@ Architecture privilégiée :
 - TypeScript ;
 - Tailwind CSS ;
 - GitHub ;
-- Vercel.
+- Vercel ;
+- aucune base de données métier en V1 ;
+- aucune authentification en V1.
 
----
+## 9. Principe de conception
 
-## 8. Principe de conception
+La V1 doit rester simple, rapide, professionnelle, mobile-first, maintenable et peu coûteuse à exploiter. Elle ne doit pas être sur-architecturée.
 
-La V1 doit rester :
+## 10. Critère de succès
 
-- simple ;
-- rapide ;
-- professionnelle ;
-- mobile-first ;
-- facilement maintenable ;
-- peu coûteuse à exploiter ;
-- capable d'évoluer ultérieurement.
-
-Le projet ne doit pas être sur-architecturé.
+Une visite doit permettre de comprendre l'offre, de joindre LCB à Pointe-Noire et de transmettre une préqualification sans données sensibles. La mise en production finale reste conditionnée aux éléments externes non encore renseignés dans le SSOT et aux gates QA/légaux.

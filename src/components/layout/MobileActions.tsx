@@ -9,7 +9,7 @@ export function MobileActions() {
         <Icon name="message" size={20} />
         WhatsApp
       </a>
-      <a href={company.phonePrimaryHref}>
+      <a href={company.phoneHref}>
         <Icon name="phone" size={20} />
         Appeler
       </a>

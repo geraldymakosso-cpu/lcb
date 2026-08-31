@@ -1,22 +1,32 @@
 export const company = {
   name: "La Congolaise Business",
+  acronym: "LCB",
   descriptor: "Cabinet de gestion et d'accompagnement",
   legalForm: "Entreprise Individuelle",
+  createdYear: 2025,
   tagline: "Un commerçant, une solution de financement.",
   institutional:
-    "La Congolaise Business accompagne les commerçants, entrepreneurs et porteurs de projets avec des solutions de gestion, d'accompagnement et de financement adaptées à leurs besoins.",
+    "LCB est un cabinet local de gestion et d'accompagnement qui facilite l'accès à des solutions de financement et accompagne les clients dans la structuration de leurs besoins.",
+  origin:
+    "LCB est née de la volonté de répondre aux difficultés d'accès au financement tout en accompagnant la structuration et le développement des petits commerces et activités économiques.",
+  mission:
+    "Faciliter l'accès à des solutions de financement et accompagner les clients dans la structuration de leurs besoins.",
+  ambition:
+    "Étendre progressivement l'accompagnement de LCB au-delà de Pointe-Noire et à travers le Congo.",
+  fundingNotice:
+    "Toute demande fait l'objet d'une étude. Le dépôt d'une demande ne garantit pas l'obtention d'un financement.",
+  minimumAmount: "27 000 FCFA",
   address:
     "Pointe-Noire, Fond Tié-Tié, Ndaka Soussou, en face de la clinique Rocher d'Âge",
   hours: "Du lundi au vendredi : 08h30 à 17h30",
-  phonePrimary: "+242 06 191 59 40",
-  phoneSecondary: "+242 05 083 62 40",
-  phonePrimaryHref: "tel:+242061915940",
-  phoneSecondaryHref: "tel:+242050836240",
+  whatsapp: "+242 06 191 59 40",
+  phone: "+242 05 083 62 40",
+  phoneHref: "tel:+242050836240",
 } as const;
 
 export const profiles = [
   {
-    title: "Commerçants des marchés",
+    title: "Commerçants",
     description:
       "Pour renouveler un stock, saisir une opportunité ou faire avancer une activité de proximité.",
     href: "/commercants",
@@ -33,7 +43,7 @@ export const profiles = [
     title: "Salariés",
     description:
       "Pour présenter un besoin ou un projet personnel et échanger avec un conseiller de La Congolaise Business.",
-    href: "/solutions#salaries",
+    href: "/salaries",
     eyebrow: "Étude au cas par cas",
   },
 ] as const;
@@ -43,7 +53,7 @@ export const processSteps = [
   "Préqualification",
   "Constitution du dossier",
   "Étude",
-  "Validation",
+  "Décision du partenaire financeur",
   "Mise à disposition",
   "Accompagnement / suivi",
 ] as const;

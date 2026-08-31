@@ -1,34 +1,22 @@
-# LEGAL & COMPLIANCE GUARDRAILS — LCB
+# LEGAL & COMPLIANCE GUARDRAILS — LCB V1
 
-# 1. Objet
+## 1. Objet
 
-Ce document ne constitue pas un avis juridique.
+Ce document ne constitue pas un avis juridique. Il définit les garde-fous éditoriaux, fonctionnels et techniques applicables au site LCB tant que certaines activités ou formulations n'ont pas été juridiquement confirmées.
 
-Il définit les garde-fous éditoriaux et techniques applicables au site tant que certaines activités ou formulations n'ont pas été juridiquement confirmées.
+## 2. Statut connu
 
----
+**La Congolaise Business**  
+Forme juridique : **Entreprise Individuelle**  
+Positionnement déclaré : **Cabinet de gestion et d'accompagnement**
 
-# 2. Statut connu
+LCB est présentée sur le site comme accompagnateur et intermédiaire. La mise à disposition du financement relève d'un partenaire financeur non nommé publiquement.
 
-**La Congolaise Business**
+## 3. Principe
 
-Forme juridique :
+Le site doit présenter uniquement les activités que LCB est effectivement autorisée à exercer et uniquement selon les formulations validées dans le SSOT.
 
-**Entreprise Individuelle**
-
-Positionnement déclaré :
-
-**Cabinet de gestion et d'accompagnement**
-
----
-
-# 3. Principe
-
-Le site doit présenter uniquement les activités que LCB est effectivement autorisée à exercer.
-
----
-
-# 4. Termes bloqués sans validation
+## 4. Termes bloqués sans validation juridique
 
 Ne pas publier automatiquement :
 
@@ -36,6 +24,7 @@ Ne pas publier automatiquement :
 - Bank
 - Microfinance
 - Établissement bancaire
+- Établissement financier
 - Établissement de crédit
 - Compte courant
 - Compte bancaire
@@ -44,12 +33,12 @@ Ne pas publier automatiquement :
 - Livret bancaire
 - Produit bancaire
 
-Statut :
+Statut : `LEGAL_VALIDATION_REQUIRED`
 
-```text
-LEGAL_VALIDATION_REQUIRED
-5. Terminologie de substitution
+## 5. Terminologie de substitution
+
 Utiliser :
+
 - cabinet de gestion et d'accompagnement ;
 - solutions ;
 - financement ;
@@ -57,83 +46,138 @@ Utiliser :
 - étude du besoin ;
 - accompagnement ;
 - conseiller LCB ;
+- partenaire financeur ;
 - mise à disposition du financement.
-6. Promesses interdites
+
+## 6. Promesses interdites
+
 Ne jamais afficher :
+
 - crédit garanti ;
 - acceptation garantie ;
 - financement garanti ;
 - argent immédiat garanti ;
 - prêt sans condition ;
-- approbation automatique.
-7. Conditions financières
-Les éléments suivants doivent être confirmés avant publication :
-- montant minimum ;
-- montant maximum ;
-- frais ;
+- approbation automatique ;
+- mise à disposition garantie le jour même.
+
+Mention obligatoire :
+
+> « Toute demande fait l'objet d'une étude. Le dépôt d'une demande ne garantit pas l'obtention d'un financement. »
+
+La formulation « Les demandes reçues pendant nos horaires d'ouverture peuvent être prises en charge le jour même » décrit uniquement la prise en charge de la demande, pas son acceptation ni le décaissement.
+
+## 7. Conditions financières
+
+Ne pas publier sans validation spécifique :
+
 - taux ;
+- frais ;
+- commissions ;
 - échéances ;
 - durée ;
 - garanties ;
 - pénalités ;
-- critères d'éligibilité.
-8. Montant 27 000 — 500 000 FCFA
-Ce montant provient des supports historiques.
-Statut :
-WORKING_DECISION
-Ne pas le considérer comme une condition contractuelle tant que le responsable LCB ne l'a pas confirmé.
-9. Données personnelles
-Le formulaire V1 collecte uniquement des données de contact et de préqualification.
-Autorisé :
-- nom ;
-- prénom ;
+- critères d'éligibilité universels ;
+- rendement ;
+- mécanisme détaillé d'Épargne.
+
+La formulation publique validée est :
+
+> « Des solutions à partir de 27 000 FCFA, selon votre profil et l'étude de votre besoin. »
+
+Elle ne doit pas être présentée comme une condition contractuelle universelle ni comme une garantie d'éligibilité.
+
+## 8. Épargne
+
+Le site peut utiliser la formulation :
+
+> « Préparez progressivement vos projets. »
+
+Les modalités sont communiquées par un conseiller. Aucun taux, rendement, montant, durée, fréquence, garantie ou mécanisme détaillé ne doit être publié tant qu'il n'est pas juridiquement et métier validé.
+
+Le site ne doit pas présenter LCB comme une institution de dépôt.
+
+## 9. Données personnelles
+
+Le formulaire V1 collecte uniquement des données de contact et de préqualification validées :
+
+- nom et prénom ;
 - téléphone ;
 - ville ;
+- profil ;
 - activité ;
 - type de besoin ;
 - montant indicatif ;
-- message.
-10. Données sensibles
-Ne pas collecter dans V1 :
+- message facultatif ;
+- consentement.
+
+## 10. Données sensibles interdites dans la V1
+
+Ne pas collecter :
+
 - pièce d'identité ;
+- passeport ;
 - compte bancaire ;
 - relevé bancaire ;
 - carte bancaire ;
-- salaire détaillé ;
+- bulletin de salaire ;
 - document administratif ;
 - justificatif financier ;
-- photo de document.
-11. Consentement
-Le formulaire doit comporter une case explicite du type :
-J'accepte que LCB utilise les informations transmises afin de me recontacter au sujet de ma demande.
+- photo de document ;
+- upload documentaire.
 
-La case ne doit pas être pré-cochée.
-12. Confidentialité
-Créer une page :
-/confidentialite
-Elle doit préciser au minimum :
+## 11. Consentement
+
+Le formulaire doit comporter une case explicite de consentement permettant à LCB d'utiliser les informations transmises afin de recontacter l'utilisateur au sujet de sa demande.
+
+La case ne doit jamais être précochée.
+
+## 12. Conservation
+
+La durée de conservation métier actuellement retenue est de **cinq ans**.
+
+Cette durée est une décision de travail interne et **ne vaut pas validation juridique externe**. Elle doit être ajustée si une exigence légale, réglementaire ou métier différente est confirmée.
+
+## 13. Confidentialité
+
+La page `/confidentialite` doit préciser au minimum :
+
 - données collectées ;
 - finalité ;
 - méthode de contact ;
-- durée de conservation à définir ;
-- contact pour exercer les droits.
-13. Mentions légales
-Créer :
-/mentions-legales
-Informations à compléter :
+- durée de conservation ;
+- contact pour exercer les droits ;
+- éléments restant à compléter le cas échéant.
+
+## 14. Mentions légales
+
+La page `/mentions-legales` doit contenir ou signaler comme à compléter :
+
 - identité de l'entreprise ;
-- responsable ;
+- responsable de publication ;
 - adresse ;
 - contacts ;
-- informations légales disponibles ;
+- RCCM ;
+- NIU ;
+- domaine ;
+- email professionnel ;
 - hébergeur ;
-- responsable de publication.
-14. Hébergeur
-Le site est destiné à être hébergé sur :
-Vercel
-Les informations légales exactes de l'hébergeur devront être vérifiées au moment de la mise en production.
-15. Gate juridique
-Avant production finale :
+- informations légales disponibles.
+
+Ne jamais inventer une valeur manquante.
+
+## 15. Hébergeur
+
+Le site est destiné à être hébergé sur **Vercel**.
+
+Les informations légales exactes et définitives de l'hébergeur doivent être vérifiées au moment de la mise en production juridique finale.
+
+## 16. Gate juridique
+
+Avant acceptation finale de la V1 :
+
+```text
 LEGAL_NAME=CONFIRMED
 BUSINESS_STATUS=CONFIRMED
 CONTACTS=CONFIRMED
@@ -141,4 +185,6 @@ OFFERS=CONFIRMED
 FINANCIAL_TERMS=CONFIRMED
 PRIVACY_TEXT=CONFIRMED
 LEGAL_NOTICE=CONFIRMED
-Toute information non confirmée doit rester générique ou être retirée.
+```
+
+Toute information non confirmée doit rester générique, être marquée à compléter ou être retirée.

@@ -1,52 +1,38 @@
 export const services = [
   {
-    id: "commercants",
-    title: "Solutions commerçants",
-    description:
-      "La Congolaise Business étudie les besoins liés au stock, à la trésorerie et au développement de votre activité commerciale.",
-    href: "/commercants",
-    icon: "shop",
+    id: "financement",
+    title: "Financement",
+    description: "Des solutions à partir de 27 000 FCFA, selon votre profil et l'étude de votre besoin.",
+    href: "/solutions#financement",
     iconSrc: "/icons/icone-main-piece.png",
   },
   {
-    id: "entrepreneurs",
-    title: "Entrepreneurs / PME",
-    description:
-      "Un accompagnement pour clarifier votre besoin, structurer votre projet et étudier une solution adaptée.",
-    href: "/entrepreneurs",
-    icon: "briefcase",
+    id: "epargne",
+    title: "Épargne",
+    description: "Préparez progressivement vos projets avec l'accompagnement d'un conseiller.",
+    href: "/solutions#epargne",
     iconSrc: "/icons/icone-graphique-croissance.png",
-  },
-  {
-    id: "salaries",
-    title: "Solutions salariés",
-    description:
-      "Présentez votre projet ou besoin à un conseiller de La Congolaise Business pour une étude au cas par cas.",
-    href: "/contact?profil=salarie",
-    icon: "user",
-    iconSrc: "/icons/icone-echange-personnes.png",
   },
   {
     id: "accompagnement",
     title: "Conseil & accompagnement",
-    description:
-      "Un conseiller à vos côtés pour mieux formuler votre besoin et préparer les prochaines étapes.",
-    href: "/contact?besoin=accompagnement",
-    icon: "compass",
+    description: "Un conseiller à vos côtés pour mieux structurer votre besoin et préparer les prochaines étapes.",
+    href: "/solutions#accompagnement",
     iconSrc: "/icons/icone-poignee-main.png",
   },
 ] as const;
 
 export const merchantNeeds = [
   "Renouveler un stock",
-  "Renforcer la trésorerie d'activité",
+  "Augmenter un stock",
+  "Acheter un équipement ou aménager un point de vente",
+  "Répondre à un besoin de trésorerie",
   "Saisir une opportunité commerciale",
-  "Développer un point de vente",
+  "Développer une activité",
 ] as const;
 
 export const entrepreneurNeeds = [
-  "Développer une activité",
-  "Financer un équipement professionnel",
-  "Préparer un besoin d'exploitation",
-  "Structurer un projet",
+  "Acheter un équipement ou du matériel",
+  "Constituer un stock ou un fonds de roulement",
+  "Exécuter une commande ou un marché",
 ] as const;

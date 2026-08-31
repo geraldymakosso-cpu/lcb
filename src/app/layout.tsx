@@ -29,6 +29,7 @@ export const metadata: Metadata = {
   description:
     "La Congolaise Business accompagne les commerçants, entrepreneurs et PME à Pointe-Noire avec des solutions adaptées à leurs besoins.",
   applicationName: "La Congolaise Business",
+  icons: { icon: "/logos/lcb-mark.png", apple: "/logos/lcb-mark.png" },
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
@@ -46,7 +47,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     "@type": "ProfessionalService",
     name: company.name,
     url: siteUrl,
-    telephone: "+242061915940",
+    telephone: "+242050836240",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Fond Tié-Tié, Ndaka Soussou, en face de la clinique Rocher d'Âge",
