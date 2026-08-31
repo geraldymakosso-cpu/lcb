@@ -1,47 +1,274 @@
-# LCB - Master SSOT
+# LCB — MASTER SSOT
 
-## Identité validée
-| Élément | Valeur |
-|---|---|
-| Nom | La Congolaise Business |
-| Sigle | LCB |
-| Forme juridique | Entreprise Individuelle |
-| Positionnement | Cabinet de gestion et d'accompagnement |
-| Création | 2025 |
+## 1. Objet
 
-## Messages canoniques
+Ce document constitue la source de vérité principale du projet LCB.
+
+Toute information contradictoire présente dans des anciens flyers, supports WhatsApp, prototypes, anciennes communications ou dans le code doit être ignorée au profit de ce document.
+
+## 2. Statuts documentaires
+
+- `VALIDATED` : décision validée.
+- `WORKING_DECISION` : décision de travail retenue en attente de confirmation définitive.
+- `TBD` : information restant à déterminer.
+- `BLOCKED` : ne doit pas être publiée ou implémentée avant clarification.
+
+Toute modification d'une décision `VALIDATED` doit être explicitement décidée, reportée ici, propagée aux documents secondaires puis seulement implémentée dans le code.
+
+## 3. Identité officielle
+
+| Élément | Valeur | Statut |
+|---|---|---|
+| Nom | La Congolaise Business | VALIDATED |
+| Sigle | LCB | VALIDATED |
+| Forme juridique | Entreprise Individuelle | VALIDATED |
+| Création | 2025 | VALIDATED |
+| Positionnement | Cabinet de gestion et d'accompagnement | VALIDATED |
+| Site | Site vitrine institutionnel et commercial | VALIDATED |
+
+## 4. Positionnement
+
+LCB ne doit pas être présentée comme une banque, un établissement bancaire, une microfinance, un établissement de dépôt ou un prêteur direct.
+
+Positionnement canonique :
+
+> **Cabinet de gestion et d'accompagnement**
+
+LCB agit comme accompagnateur et intermédiaire. La mise à disposition du financement relève d'un partenaire financeur non nommé publiquement.
+
+Statut : `VALIDATED`
+
+## 5. Messages canoniques
+
 - Origine : « LCB est née de la volonté de répondre aux difficultés d'accès au financement tout en accompagnant la structuration et le développement des petits commerces et activités économiques. »
 - Mission : « Faciliter l'accès à des solutions de financement et accompagner les clients dans la structuration de leurs besoins. »
 - Ambition : « Étendre progressivement l'accompagnement de LCB au-delà de Pointe-Noire et à travers le Congo. »
 - Signature : « Un commerçant, une solution de financement. »
 - Mention obligatoire : « Toute demande fait l'objet d'une étude. Le dépôt d'une demande ne garantit pas l'obtention d'un financement. »
 
-## Cibles et contact
-1. Commerçants
-2. Entrepreneurs / PME
-3. Salariés
+Statut : `VALIDATED`
 
-- Zone prioritaire : Pointe-Noire, Fond Tié-Tié, Ndaka Soussou.
-- Adresse : Pointe-Noire, Fond Tié-Tié, Ndaka Soussou, en face de la clinique Rocher d'Âge.
-- Horaires : Du lundi au vendredi : 08h30 à 17h30.
-- WhatsApp primaire : +242 06 191 59 40, `https://wa.me/242061915940`.
-- Appels : +242 05 083 62 40, `tel:+242050836240`.
-- CTA primaire : Contacter LCB sur WhatsApp. CTA secondaire : Appeler un conseiller.
+## 6. Cibles
 
-## Offre publique V1
-- Commerçants : stock, équipement, aménagement, trésorerie, opportunité commerciale, développement. Une activité de trois mois peut être demandée selon la solution ; le premier contact ne demande pas de formalisation administrative.
-- Entrepreneurs / PME : équipement, matériel, stock, fonds de roulement, exécution de commande ou de marché. Entreprises déjà en activité ; l'étude tient compte de la situation, de l'activité et des caractéristiques de l'entreprise.
-- Salariés : projet personnel, équipement ou activité complémentaire. L'étude peut tenir compte de l'ancienneté, du contrat et du revenu, sans seuil annoncé.
-- Épargne : « Préparez progressivement vos projets. » Les modalités sont communiquées par un conseiller ; aucun taux, montant, durée, fréquence ou mécanisme n'est publié.
-- Conseil et accompagnement : « Un conseiller à vos côtés pour mieux structurer votre besoin et préparer les prochaines étapes. »
+Ordre canonique :
 
-LCB est un cabinet d'accompagnement et d'intermédiation. La mise à disposition du financement relève d'un partenaire financeur non nommé publiquement. Communiquer seulement : « Des solutions à partir de 27 000 FCFA, selon votre profil et l'étude de votre besoin. » Les demandes reçues pendant les horaires d'ouverture peuvent être prises en charge le jour même.
+1. **Commerçants** ;
+2. **Entrepreneurs / PME** ;
+3. **Salariés**.
 
-## Navigation V1
-`NAVIGATION_MODEL=OFFER_AND_AUDIENCE`. Le menu Solutions contient Financement (`/solutions#financement`), Épargne (`/solutions#epargne`) et Conseil & accompagnement (`/solutions#accompagnement`). Le menu Pour qui ? contient Commerçants, Entrepreneurs & PME et Salariés. Épargne n'a pas de route autonome.
+Statut : `VALIDATED`
 
-## Formulaire et données
-Préqualification uniquement : nom et prénom, téléphone, ville, profil, activité, besoin, montant souhaité et consentement sont obligatoires ; message facultatif. Besoins : Financement, Épargne, Accompagnement, Information, Autre. Aucun document ou donnée sensible. Rétention métier : cinq ans.
+## 7. Adresse et zone
 
-## Éléments externes non renseignés
-Ne pas inventer : domaine, email professionnel, RCCM, NIU, responsable de publication, coordonnées définitives d'hébergement et valeurs HEX. Le logo et les couleurs validés présents dans le dépôt sont conservés.
+Zone prioritaire : **Pointe-Noire, République du Congo**.
+
+Adresse : **Pointe-Noire, Fond Tié-Tié, Ndaka Soussou, en face de la clinique Rocher d'Âge**.
+
+Statut : `VALIDATED`
+
+## 8. Horaires
+
+**Du lundi au vendredi : 08h30 à 17h30**
+
+Statut : `VALIDATED`
+
+## 9. Téléphones et WhatsApp
+
+- WhatsApp primaire : **+242 06 191 59 40** — `https://wa.me/242061915940`.
+- Appels : **+242 05 083 62 40** — `tel:+242050836240`.
+
+Statut : `VALIDATED`
+
+## 10. Email
+
+L'adresse Gmail personnelle présente sur certains anciens supports ne doit pas être utilisée comme adresse principale du site.
+
+Créer une adresse professionnelle sur le domaine officiel.
+
+Statut : `TBD`
+
+## 11. Réseaux sociaux
+
+Les réseaux sociaux doivent être créés / structurés. Ne pas afficher de lien tant que le compte correspondant n'existe pas.
+
+Statut : `TBD`
+
+## 12. Identité graphique
+
+Couleurs officielles :
+
+- Vert ;
+- Jaune ;
+- Rouge.
+
+Le logo et les couleurs actuellement validés présents dans le dépôt sont conservés. Les valeurs HEX/RGB qui ne sont pas documentées ne doivent pas être inventées.
+
+## 13. Hiérarchie des CTA
+
+### CTA primaire
+
+**Contacter LCB sur WhatsApp**
+
+### CTA secondaire principal
+
+**Appeler un conseiller**
+
+Autres actions : remplir le formulaire et se rendre à l'agence.
+
+## 14. Navigation V1
+
+`NAVIGATION_MODEL=OFFER_AND_AUDIENCE`
+
+### Solutions
+
+- Financement : `/solutions#financement` ;
+- Épargne : `/solutions#epargne` ;
+- Conseil & accompagnement : `/solutions#accompagnement`.
+
+### Pour qui ?
+
+- Commerçants : `/commercants` ;
+- Entrepreneurs & PME : `/entrepreneurs` ;
+- Salariés : `/salaries`.
+
+Épargne n'a pas de route autonome en V1.
+
+Statut : `VALIDATED`
+
+## 15. Offre publique V1
+
+### Commerçants
+
+Besoins pouvant être étudiés : stock, équipement, aménagement, trésorerie, opportunité commerciale, développement.
+
+Une activité de trois mois peut être demandée selon la solution ; le premier contact ne demande pas de formalisation administrative.
+
+### Entrepreneurs / PME
+
+Besoins pouvant être étudiés : équipement, matériel, stock, fonds de roulement, exécution de commande ou de marché.
+
+L'entreprise doit déjà être en activité ; l'étude tient compte de la situation, de l'activité et des caractéristiques de l'entreprise.
+
+### Salariés
+
+Besoins pouvant être étudiés : projet personnel, équipement ou activité complémentaire.
+
+L'étude peut tenir compte de l'ancienneté, du contrat et du revenu, sans seuil public annoncé.
+
+### Épargne
+
+Formulation publique :
+
+> « Préparez progressivement vos projets. »
+
+Les modalités sont communiquées par un conseiller. Aucun taux, rendement, montant, durée, fréquence ou mécanisme détaillé n'est publié.
+
+### Conseil et accompagnement
+
+> « Un conseiller à vos côtés pour mieux structurer votre besoin et préparer les prochaines étapes. »
+
+## 16. Montants et rapidité
+
+Formulation publique autorisée :
+
+> « Des solutions à partir de 27 000 FCFA, selon votre profil et l'étude de votre besoin. »
+
+Ne pas présenter ce montant comme une condition contractuelle universelle ou comme une garantie d'éligibilité.
+
+Formulation autorisée sur la prise en charge :
+
+> « Les demandes reçues pendant nos horaires d'ouverture peuvent être prises en charge le jour même. »
+
+Cela ne constitue ni une promesse d'acceptation ni une promesse de mise à disposition le jour même.
+
+## 17. Formulaire et données
+
+Le formulaire V1 sert uniquement à la préqualification.
+
+Champs obligatoires :
+
+- nom et prénom ;
+- téléphone ;
+- ville ;
+- profil ;
+- activité ;
+- besoin ;
+- montant souhaité ;
+- consentement.
+
+Message : facultatif.
+
+Besoins : Financement, Épargne, Accompagnement, Information, Autre.
+
+Aucun document ni donnée sensible ne doit être demandé.
+
+Rétention métier de travail : **cinq ans**. Cette durée ne vaut pas validation juridique externe et doit être revue si une exigence légale ou métier différente est confirmée.
+
+## 18. Vocabulaire canonique
+
+### Utiliser
+
+- financement ;
+- solution de financement ;
+- accompagnement ;
+- solution ;
+- conseiller LCB ;
+- partenaire financeur ;
+- demande ;
+- dossier ;
+- étude du besoin ;
+- mise à disposition du financement ;
+- commerçant ;
+- entrepreneur ;
+- PME ;
+- salarié.
+
+### Éviter sans validation juridique
+
+- banque ;
+- LCB Bank ;
+- microfinance ;
+- établissement bancaire ;
+- établissement financier ;
+- établissement de crédit ;
+- compte bancaire ;
+- compte courant ;
+- dépôt bancaire ;
+- collecte de dépôts ;
+- produit bancaire ;
+- livret bancaire ;
+- épargne sécurisée ;
+- crédit garanti ;
+- acceptation garantie ;
+- financement garanti.
+
+## 19. Déploiement
+
+| Élément | Valeur | Statut |
+|---|---|---|
+| Framework | Next.js | VALIDATED |
+| Langage | TypeScript | VALIDATED |
+| Styles | Tailwind CSS | VALIDATED |
+| Repository | GitHub | VALIDATED |
+| Hosting | Vercel | VALIDATED |
+| Database V1 | Aucune | VALIDATED |
+| Auth V1 | Aucune | VALIDATED |
+| CMS V1 | Aucun | VALIDATED |
+
+Branches : `feature/* -> develop -> main`.
+
+Production : `main`. Preview : `develop`, `feature/*`, PR.
+
+## 20. Éléments externes non renseignés
+
+Ne pas inventer :
+
+- domaine ;
+- email professionnel ;
+- RCCM ;
+- NIU ;
+- responsable de publication ;
+- coordonnées légales définitives d'hébergement ;
+- toute autre donnée administrative non fournie.
+
+Statut : `TBD`.
