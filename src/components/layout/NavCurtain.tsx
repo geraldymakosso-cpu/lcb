@@ -37,7 +37,6 @@ export function NavCurtain() {
       isNavigating.current = false;
     }, 2500);
     return () => clearTimeout(safety);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
 
   // Intercept all internal link clicks

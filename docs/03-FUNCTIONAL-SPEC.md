@@ -4,134 +4,165 @@
 
 Routes prévues :
 
-```text
-/
- /solutions
- /commercants
- /entrepreneurs
- /a-propos
- /faq
- /contact
- /mentions-legales
- /confidentialite
-2. Header
-Le header doit contenir :
-- logo LCB ;
-- Accueil ;
-- Solutions ;
-- Commerçants ;
-- Entrepreneurs ;
-- À propos ;
-- FAQ ;
-- Contact ;
-- bouton WhatsApp.
-Sur mobile :
-- navigation hamburger ;
-- CTA WhatsApp immédiatement accessible.
-3. Accueil
-Hero
-H1
-Un commerçant, une solution de financement.
-Texte
-LCB accompagne les commerçants, entrepreneurs et porteurs de projets avec des solutions adaptées à leurs besoins.
-CTA
-Primaire :
-Contacter LCB sur WhatsApp
-Secondaire :
-Découvrir nos solutions
-4. Section cibles
-Présenter trois profils :
-Commerçants
-Financer et accompagner le développement de l'activité.
-Entrepreneurs / PME
-Soutenir les projets et besoins professionnels.
-Salariés
-Étudier des solutions adaptées aux projets personnels.
-5. Section solutions
-Afficher des cartes avec :
-- titre ;
-- courte description ;
-- icône ;
-- CTA.
-Ne pas afficher de conditions financières non validées.
-6. Section commerçants
-Cette section doit être fortement visible.
-Exemple de contenu :
-Besoin de renouveler votre stock ou de renforcer votre activité ? LCB étudie votre besoin et vous accompagne vers une solution adaptée.
+- `/`
+- `/solutions`
+- `/commercants`
+- `/entrepreneurs`
+- `/salaries`
+- `/a-propos`
+- `/faq`
+- `/contact`
+- `/mentions-legales`
+- `/confidentialite`
 
-CTA :
-Parler à un conseiller
-7. Processus
-Afficher visuellement :
-Contact
-↓
-Préqualification
-↓
-Constitution du dossier
-↓
-Étude
-↓
-Validation
-↓
-Mise à disposition
-↓
-Suivi
+Épargne reste une section de `/solutions` et n'a pas de route autonome en V1.
+
+## 2. Header
+
+Le header doit rester compact et orienté conversion.
+
+### Solutions
+
+- Financement → `/solutions#financement`
+- Épargne → `/solutions#epargne`
+- Conseil & accompagnement → `/solutions#accompagnement`
+
+### Pour qui ?
+
+- Commerçants → `/commercants`
+- Entrepreneurs & PME → `/entrepreneurs`
+- Salariés → `/salaries`
+
+CTA primaire : WhatsApp.  
+CTA secondaire : appel au **+242 05 083 62 40**.
+
+Sur mobile, WhatsApp doit rester immédiatement accessible.
+
+## 3. Accueil
+
+Ordre recommandé :
+
+1. Header
+2. Hero
+3. Profils
+4. Solutions
+5. Focus commerçants
+6. Épargne
+7. Parcours
 8. Pourquoi LCB
-Axes recommandés :
-- proximité ;
-- simplicité ;
-- écoute ;
-- accompagnement ;
-- connaissance du terrain.
-9. Contact rapide
-Afficher :
-Téléphone
-+242 06 191 59 40
-+242 05 083 62 40
-Adresse
-Pointe-Noire, Fond Tié-Tié, Ndaka Soussou, en face de la clinique Rocher d'Âge.
-Horaires
-Lundi au vendredi
-08h30 — 17h30
-10. WhatsApp
-Le bouton WhatsApp doit être présent :
-- dans le Hero ;
-- dans le header ;
-- sur les pages commerciales ;
-- dans le footer ;
-- en bouton flottant mobile/desktop.
-Message pré-rempli possible :
-Bonjour LCB, je souhaite avoir des informations sur vos solutions.
+9. À propos
+10. Contact / agence
+11. FAQ
+12. CTA final
+13. Footer
 
-11. Téléphone
-Utiliser des liens :
-tel:+242061915940
-tel:+242050836240
-12. Formulaire
-Objectif
-Préqualification uniquement.
-Champs
-- Nom et prénom
-- Téléphone
-- Ville
-- Profil
-- Activité
-- Besoin
-- Montant souhaité
-- Message
-- Consentement
-Profil
+H1 :
+
+> Un commerçant, une solution de financement.
+
+Le Hero doit présenter LCB comme cabinet local de gestion et d'accompagnement.
+
+## 4. Profils
+
+### Commerçants
+
+Présenter les besoins liés au stock, à l'équipement, à l'aménagement, à la trésorerie, aux opportunités commerciales et au développement.
+
+### Entrepreneurs / PME
+
+Présenter les besoins liés à l'équipement, au matériel, au stock, au fonds de roulement et à l'exécution de commande ou de marché.
+
+### Salariés
+
+Présenter les besoins liés aux projets personnels, à l'équipement ou à une activité complémentaire.
+
+Ne publier aucun seuil d'éligibilité non validé.
+
+## 5. Solutions
+
+Le catalogue public comporte trois familles :
+
+1. Financement ;
+2. Épargne ;
+3. Conseil & accompagnement.
+
+### Financement
+
+Formulation autorisée :
+
+> Des solutions à partir de 27 000 FCFA, selon votre profil et l'étude de votre besoin.
+
+Ne pas présenter ce montant comme une garantie d'éligibilité.
+
+### Épargne
+
+Formulation autorisée :
+
+> Préparez progressivement vos projets.
+
+Les modalités sont communiquées par un conseiller. Aucun taux, rendement, montant, durée, fréquence ou mécanisme détaillé ne doit être publié.
+
+### Conseil & accompagnement
+
+Formulation autorisée :
+
+> Un conseiller à vos côtés pour mieux structurer votre besoin et préparer les prochaines étapes.
+
+## 6. Parcours de demande
+
+Afficher visuellement :
+
+Contact → Préqualification → Constitution du dossier → Étude → Validation → Mise à disposition → Suivi.
+
+Le site doit rappeler qu'une demande ne garantit pas l'obtention d'un financement.
+
+## 7. Contact rapide
+
+Afficher :
+
+- WhatsApp : +242 06 191 59 40 ;
+- Appels : +242 05 083 62 40 ;
+- Adresse : Pointe-Noire, Fond Tié-Tié, Ndaka Soussou, en face de la clinique Rocher d'Âge ;
+- Horaires : lundi au vendredi, 08h30 à 17h30.
+
+Le bouton itinéraire utilise l'adresse textuelle. Ne pas inventer de coordonnées GPS.
+
+## 8. Formulaire
+
+Objectif : préqualification uniquement.
+
+Champs obligatoires :
+
+- Nom et prénom ;
+- Téléphone ;
+- Ville ;
+- Profil ;
+- Activité ;
+- Besoin ;
+- Montant souhaité ;
+- Consentement.
+
+Message : facultatif.
+
+### Profil
+
 - Commerçant
 - Entrepreneur / PME
 - Salarié
 - Autre
-Besoin
+
+### Besoin
+
 - Financement
+- Épargne
 - Accompagnement
 - Information
 - Autre
-13. Données interdites dans le formulaire V1
+
+### Données interdites
+
 Ne pas demander :
+
 - CNI ;
 - passeport ;
 - carte bancaire ;
@@ -140,47 +171,52 @@ Ne pas demander :
 - bulletins de salaire ;
 - justificatifs privés ;
 - upload de documents.
-14. Formulaire — résultat
-Après envoi :
-1. validation serveur ;
-2. notification email vers LCB ;
-3. message de confirmation utilisateur.
-Message :
-Votre demande a bien été transmise. Un conseiller LCB pourra vous recontacter.
 
-15. Carte / localisation
-La page Contact doit contenir :
-- adresse complète ;
-- bouton itinéraire ;
-- éventuellement une carte intégrée si cela reste léger.
-Ne pas inventer de coordonnées GPS.
-16. Footer
-Doit contenir :
+### Validation et anti-spam
+
+- validation côté serveur ;
+- validation client ;
+- honeypot ;
+- limite de cinq requêtes par dix minutes ;
+- consentement non précoché.
+
+### Succès
+
+> Votre demande a bien été transmise. Un conseiller LCB pourra vous recontacter pendant nos horaires d'ouverture.
+
+## 9. Contenu et responsabilité
+
+LCB accompagne et intermédie ; le partenaire financeur met le financement à disposition.
+
+Le site doit afficher :
+
+> Toute demande fait l'objet d'une étude. Le dépôt d'une demande ne garantit pas l'obtention d'un financement.
+
+Le site ne doit publier aucun taux, frais, partenaire identifié, seuil d'éligibilité non validé, promesse automatique, document sensible ou mécanisme d'Épargne non documenté.
+
+## 10. Footer
+
+Le footer doit contenir :
+
 - nom LCB ;
-- Cabinet de gestion et d'accompagnement ;
+- positionnement ;
 - téléphone ;
 - WhatsApp ;
 - adresse ;
 - horaires ;
 - navigation ;
-- réseaux sociaux disponibles ;
+- réseaux sociaux uniquement s'ils existent ;
 - confidentialité ;
 - mentions légales.
-17. FAQ minimale
-Questions :
-1. Qui peut contacter LCB ?
-2. Comment faire une demande ?
-3. Quels types de besoins peuvent être étudiés ?
-4. Quels documents peuvent être demandés ?
-5. Une demande garantit-elle un financement ?
-6. Comment contacter un conseiller ?
-7. Où se trouve LCB ?
-8. Quels sont les horaires ?
-18. Comportements interdits
+
+## 11. Comportements interdits
+
 Le site ne doit jamais :
+
 - prétendre qu'un financement est garanti ;
 - annoncer une acceptation automatique ;
 - simuler une banque en ligne ;
 - afficher un faux espace client ;
 - collecter des documents sensibles ;
-- faire croire qu'un produit non validé est disponible.
+- faire croire qu'un produit non validé est disponible ;
+- présenter LCB comme prêteur direct.

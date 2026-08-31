@@ -76,6 +76,15 @@ img, svg { display: block; }
 .desktop-nav a::after { content:""; position:absolute; left:0; right:100%; bottom:-7px; height:2px; background:var(--ember); transition:right .25s ease; }
 .desktop-nav a:hover { color: var(--green); }
 .desktop-nav a:hover::after { right:0; }
+.nav-group { position: relative; }
+.nav-group summary { cursor: pointer; list-style: none; color: #3d4b42; font-size: .88rem; font-weight: 650; }
+.nav-group summary::-webkit-details-marker { display: none; }
+.nav-group summary::after { content: "▼"; display: inline-block; margin-left: 6px; font-size: .58rem; transition: transform .2s ease; }
+.nav-group[open] summary::after { transform: rotate(180deg); }
+.nav-dropdown { position: absolute; top: calc(100% + 15px); left: -14px; min-width: 210px; padding: 8px; display: grid; gap: 2px; background: white; border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow-soft); }
+.desktop-nav .nav-dropdown a { padding: 10px 12px; border-radius: 9px; white-space: nowrap; }
+.desktop-nav .nav-dropdown a::after { display: none; }
+.desktop-nav .nav-dropdown a:hover { background: var(--surface); }
 .header-whatsapp { min-height: 42px; padding-inline: 17px; }
 .mobile-menu { display: none; position: relative; margin-left: auto; }
 .mobile-menu summary { width: 44px; height: 44px; list-style: none; display: grid; place-content: center; gap: 4px; border: 1px solid var(--line); border-radius: 50%; cursor: pointer; }
@@ -84,6 +93,9 @@ img, svg { display: block; }
 .mobile-menu-panel { position: absolute; top: 54px; right: 0; width: min(310px, calc(100vw - 36px)); padding: 12px; display: grid; background: white; border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow-soft); }
 .mobile-menu-panel a { padding: 12px 14px; border-radius: 10px; font-weight: 650; }
 .mobile-menu-panel a:hover { background: var(--surface); color: var(--green); }
+.mobile-menu-panel .nav-group { border-top: 1px solid var(--line); padding: 8px 2px; }
+.mobile-menu-panel .nav-group summary { padding: 8px 12px; font-size: .95rem; }
+.mobile-menu-panel .nav-dropdown { position: static; min-width: 0; padding: 4px 0 0 12px; box-shadow: none; border: 0; background: transparent; }
 
 .home-hero { overflow: hidden; position: relative; padding: 0; background: var(--paper); }
 .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; min-height: clamp(640px, 88svh, 860px); align-items: stretch; }
