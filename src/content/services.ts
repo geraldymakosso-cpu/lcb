@@ -9,7 +9,7 @@ export const services = [
   {
     id: "epargne",
     title: "Épargne",
-    description: "Préparez progressivement vos projets avec l'accompagnement d'un conseiller.",
+    description: "Organisez votre objectif, votre budget et votre rythme selon vos possibilités.",
     href: "/solutions#epargne",
     iconSrc: "/icons/icone-graphique-croissance.png",
   },

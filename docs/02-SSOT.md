@@ -159,9 +159,13 @@ L'étude peut tenir compte de l'ancienneté, du contrat et du revenu, sans seuil
 
 Formulation publique :
 
-> « Préparez progressivement vos projets. »
+> « Votre objectif, votre budget, votre rythme. »
 
-Les modalités sont communiquées par un conseiller. Aucun taux, rendement, montant, durée, fréquence ou mécanisme détaillé n'est publié.
+La section présente l'épargne comme une décision personnelle, sans étude de dossier. LCB peut aider le visiteur à organiser un objectif, un budget et un rythme journalier, hebdomadaire ou adapté à son organisation.
+
+Les modalités sont communiquées par un conseiller. Aucun montant chiffré, taux, rendement, durée, garantie, condition de retrait ou mécanisme de conservation n'est publié.
+
+Le CTA unique « En savoir plus » ouvre deux choix : parler à un conseiller sur WhatsApp ou prendre rendez-vous via le formulaire avec le besoin Épargne présélectionné.
 
 ### Conseil et accompagnement
 

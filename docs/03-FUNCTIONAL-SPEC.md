@@ -98,9 +98,13 @@ Ne pas présenter ce montant comme une garantie d'éligibilité.
 
 Formulation autorisée :
 
-> Préparez progressivement vos projets.
+> Votre objectif, votre budget, votre rythme.
 
-Les modalités sont communiquées par un conseiller. Aucun taux, rendement, montant, durée, fréquence ou mécanisme détaillé ne doit être publié.
+La section explique que l'épargne relève d'une décision personnelle et ne demande aucune étude de dossier. Elle peut présenter les trois repères validés : objectif à préparer, budget raisonnablement disponible et rythme journalier, hebdomadaire ou adapté à l'organisation du client.
+
+Un CTA unique « En savoir plus » ouvre un menu contextuel avec deux choix : parler à un conseiller sur WhatsApp ou prendre rendez-vous via le formulaire avec le besoin Épargne présélectionné.
+
+Les modalités sont communiquées par un conseiller. Aucun montant chiffré, taux, rendement, durée, garantie, condition de retrait ou mécanisme de conservation ne doit être publié.
 
 ### Conseil & accompagnement
 
