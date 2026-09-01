@@ -38,7 +38,7 @@ export const faqs = [
   },
   {
     question: "LCB propose-t-elle une solution d'épargne ?",
-    answer: "Oui. LCB propose un service d'Épargne. Contactez un conseiller pour connaître les modalités adaptées à votre situation.",
+    answer: "Oui. Vous choisissez votre objectif, votre budget et votre rythme. Pour connaître le fonctionnement du service, vous pouvez prendre rendez-vous ou parler directement à un conseiller LCB.",
   },
   {
     question: "Quand serai-je recontacté ?",

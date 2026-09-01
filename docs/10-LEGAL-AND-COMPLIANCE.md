@@ -92,9 +92,11 @@ Elle ne doit pas être présentée comme une condition contractuelle universelle
 
 Le site peut utiliser la formulation :
 
-> « Préparez progressivement vos projets. »
+> « Votre objectif, votre budget, votre rythme. »
 
-Les modalités sont communiquées par un conseiller. Aucun taux, rendement, montant, durée, fréquence, garantie ou mécanisme détaillé ne doit être publié tant qu'il n'est pas juridiquement et métier validé.
+La section peut indiquer que l'épargne est une décision personnelle organisée autour d'un objectif, d'un budget non chiffré et d'un rythme journalier, hebdomadaire ou adapté à l'organisation du client. Elle ne doit évoquer aucune étude ni approbation de dossier.
+
+Les modalités sont communiquées par un conseiller. Aucun taux, rendement, montant chiffré, durée, garantie, condition de retrait ou mécanisme de conservation ne doit être publié tant qu'il n'est pas juridiquement et métier validé.
 
 Le site ne doit pas présenter LCB comme une institution de dépôt.
 
